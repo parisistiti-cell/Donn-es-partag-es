@@ -22,6 +22,7 @@
             --text: #212529;
             --favorite: #d90429;
             --public-db: #00539c;
+            --visit: #7b2cbf;
         }
 
         body {
@@ -263,6 +264,25 @@
             flex-shrink: 0;
         }
 
+        /* Pastille de couleur dans les en-têtes de menu (verts), reprenant la couleur du
+           repère sur la carte pour la catégorie correspondante (T = Top 12, C = Carnet). */
+        .menu-categorie-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            font-size: 0.65rem;
+            font-weight: bold;
+            color: #fff;
+            flex-shrink: 0;
+        }
+        .menu-categorie-badge.badge-top12 { background-color: var(--accent); }
+        .menu-categorie-badge.badge-carnet { background-color: var(--favorite); }
+        .menu-categorie-badge.badge-lieux { background-color: var(--primary); }
+
         .dropdown-group label.menu-titre-section.sous-menu-ouvert .sous-menu-arrow {
             transform: rotate(180deg);
         }
@@ -469,16 +489,31 @@
             height: 100%;
         }
 
-        /* Style bulle de la carte (Popup Leaflet) */
+        /* Style bulle de la carte (Popup Leaflet) : même traitement que le panneau
+           de détails — cadre délimité, fond transparent pour voir la carte
+           derrière, et chaque bloc de texte dans sa propre bulle opaque. */
+        .leaflet-popup-content-wrapper {
+            background: transparent;
+            border: 2px solid var(--primary);
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+        }
+        .leaflet-popup-content { margin: 13px 16px; }
+        .leaflet-popup-tip-container { display: none; }
         .popup-bubble-content {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
             padding: 5px;
         }
-        .popup-bubble-content h4 { 
-            margin: 0 0 8px 0; 
+        .popup-bubble-content h4 {
+            margin: 0 0 8px 0;
             color: var(--secondary);
             font-size: 0.95rem;
+            display: inline-block;
+            background: white;
+            padding: 5px 12px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
         }
         .popup-btn {
             background: #6c757d;
@@ -501,6 +536,9 @@
             font-weight: bold;
             color: var(--secondary);
             margin: 6px 0 2px 0;
+            background: #eef6fb;
+            padding: 3px 8px;
+            border-radius: 6px;
         }
         .popup-bubble-content .popup-input,
         .popup-bubble-content .popup-textarea {
@@ -593,21 +631,37 @@
         .photo-hidden-input { display: none; }
         .photo-url-input { margin-top: 5px; }
 
-        /* Panneau de détails bas */
+        /* Panneau de détails bas : cadre délimité, fond transparent pour laisser
+           voir la carte en dessous. Le panneau s'adapte en hauteur au contenu
+           affiché (height: auto), avec un plafond pour rester scrollable si le
+           contenu est trop long. */
         .details-panel {
             position: absolute;
             bottom: 20px;
             left: 20px;
             right: 20px;
-            background: white;
+            background: transparent;
+            border: 2px solid var(--primary);
             border-radius: 12px;
             box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
             padding: 20px;
             z-index: 1000;
             display: none;
+            width: fit-content;
+            height: auto;
             max-height: 45%;
+            max-width: calc(100% - 40px);
             overflow-y: auto;
             animation: slideUp 0.3s ease-out;
+        }
+
+        /* Sur grand écran, le cadre ne s'étire plus sur toute la largeur :
+           il se limite à la largeur de son contenu (jusqu'à un plafond raisonnable). */
+        @media (min-width: 700px) {
+            .details-panel {
+                right: auto;
+                max-width: min(680px, calc(100% - 40px));
+            }
         }
 
         @keyframes slideUp {
@@ -616,12 +670,12 @@
         }
 
         .details-content { display: flex; gap: 20px; }
-        .details-photo { flex: 0 0 140px; max-width: 140px; }
+        .details-photo { flex: 0 0 140px; max-width: 140px; background: white; border-radius: 8px; padding: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.2); }
         .details-photo img {
             width: 100%;
             height: 140px;
             object-fit: cover;
-            border-radius: 8px;
+            border-radius: 6px;
             display: block;
             border: 1px solid #ddd;
         }
@@ -633,7 +687,15 @@
 
         /* (CSS du panneau admin retiré : plus de panneau d'ajout/suppression de lieux) */
         .details-info { flex: 1; }
-        .details-info h2 { margin: 0 0 10px 0; color: var(--primary); }
+        .details-info h2 {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+            display: inline-block;
+            background: white;
+            padding: 6px 14px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+        }
         .weather-info {
             font-size: 0.9rem;
             font-weight: bold;
@@ -672,6 +734,9 @@
             align-items: center;
             justify-content: space-between;
             gap: 8px;
+            background: #eef6fb;
+            padding: 4px 8px;
+            border-radius: 6px;
         }
         .webcam-list {
             display: flex;
@@ -738,6 +803,167 @@
             filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
         }
 
+        /* Repère numéroté (Base de Lieux) : le numéro affiché sur la carte est le même
+           que celui attribué au lieu lors du chargement de la base (cf. chargerBaseLieux). */
+        .lieux-db-numero-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50% 50% 50% 0;
+            background: var(--primary, #2e7d6f);
+            border: 2px solid #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            transform: rotate(-45deg);
+        }
+        .lieux-db-numero-icon span {
+            transform: rotate(45deg);
+            color: #fff;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 1;
+        }
+
+        /* Repère numéroté du Top 12 : même principe que la Base de Lieux mais avec une
+           couleur distincte pour différencier les deux catégories d'un coup d'œil. */
+        .top12-numero-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50% 50% 50% 0;
+            background: var(--accent, #e07a3e);
+            border: 2px solid #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            transform: rotate(-45deg);
+        }
+        .top12-numero-icon span {
+            transform: rotate(45deg);
+            color: #fff;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 1;
+        }
+
+        /* Repère numéroté du Carnet Virtuel : même principe, couleur "favori" (rouge)
+           déjà utilisée ailleurs pour le carnet, afin de le reconnaître au premier coup d'œil. */
+        .carnet-numero-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50% 50% 50% 0;
+            background: var(--favorite, #d90429);
+            border: 2px solid #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            transform: rotate(-45deg);
+        }
+        .carnet-numero-icon span {
+            transform: rotate(45deg);
+            color: #fff;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 1;
+        }
+
+        /* Lieux "À visiter" à proximité (rayon 20 km autour du lieu affiché) */
+        .nearby-info {
+            display: none;
+            margin: 0 0 10px 0;
+        }
+        .nearby-info.has-content { display: block; }
+        .nearby-info .nearby-titre {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: var(--secondary);
+            margin: 0 0 6px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            background: #f5eefb;
+            padding: 4px 8px;
+            border-radius: 6px;
+        }
+        .nearby-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            max-height: 220px;
+            overflow-y: auto;
+        }
+        .nearby-item {
+            display: flex;
+            gap: 6px;
+            align-items: baseline;
+            background: #f5eefb;
+            border-radius: 6px;
+            padding: 4px 8px;
+            cursor: pointer;
+            color: var(--text);
+            font-size: 0.85rem;
+        }
+        .nearby-item:hover { background: #ebdcf7; }
+        .nearby-item .nearby-icone { flex-shrink: 0; color: var(--visit); font-weight: bold; }
+        .nearby-item .nearby-nom { font-weight: bold; color: var(--secondary); }
+        .nearby-item .nearby-distance { color: #6c757d; font-size: 0.78rem; }
+        .nearby-info.nearby-error {
+            font-size: 0.8rem;
+            color: #6c757d;
+            display: block;
+        }
+        .nearby-select {
+            width: 100%;
+            padding: 6px 8px;
+            border-radius: 6px;
+            border: 1px solid #ddc6ef;
+            background: #f5eefb;
+            color: var(--text);
+            font-size: 0.85rem;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        .nearby-select:focus { outline: none; border-color: var(--visit); }
+        .btn-nearby-carte {
+            font-size: 0.72rem;
+            font-weight: normal;
+            background: var(--visit);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 2px 9px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .btn-nearby-carte:hover { opacity: 0.85; }
+        .btn-nearby-carte.active { background: var(--favorite); }
+
+        /* Repère numéroté des lieux "À visiter" trouvés dans un rayon de 20 km
+           autour du lieu actuellement affiché (recalculé à chaque sélection). */
+        .nearby-numero-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50% 50% 50% 0;
+            background: var(--visit, #7b2cbf);
+            border: 2px solid #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            transform: rotate(-45deg);
+        }
+        .nearby-numero-icon span {
+            transform: rotate(45deg);
+            color: #fff;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
         /* Réseaux sociaux du lieu (s'ils existent dans OpenStreetMap) */
         .social-info {
             display: none;
@@ -747,7 +973,12 @@
             font-size: 0.85rem;
             margin: 0 0 10px 0;
             color: var(--secondary);
+            background: white;
+            padding: 6px 10px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
         }
+        .social-info:not(.has-content) { background: none; box-shadow: none; padding: 0; }
         .social-info .social-label { font-weight: bold; }
         .social-link {
             display: inline-flex;
@@ -762,7 +993,14 @@
             transition: background 0.2s;
         }
         .social-link:hover { background: #dceefb; }
-        .details-info ul { margin: 0 0 15px 0; padding-left: 20px; font-size: 0.95rem;}
+        .details-info ul {
+            margin: 0 0 15px 0;
+            padding: 10px 20px 10px 30px;
+            font-size: 0.95rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+        }
         
         .btn-container { display: flex; gap: 10px; flex-wrap: wrap; }
         .btn {
@@ -794,11 +1032,17 @@
             position: absolute;
             top: 10px;
             right: 15px;
-            background: none;
+            background: white;
             border: none;
-            font-size: 1.5rem;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 1.3rem;
             cursor: pointer;
-            color: #aaa;
+            color: #555;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
         }
 
         /* Masquage de l'entête au toucher de la carte */
@@ -857,6 +1101,61 @@
             justify-content: center;
         }
         .btn-confidentialite:hover { background: #f1f5f3; }
+
+        /* Bouton et modale d'Aide générale */
+        .btn-aide-generale {
+            flex: 0 0 auto;
+            background: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-aide-generale:hover { background: #f1f5f3; }
+
+        .modal-aide-generale {
+            max-width: 600px;
+        }
+        .modal-aide-generale h3 {
+            margin: 0 0 14px 0;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .modal-aide-generale h4 {
+            margin: 18px 0 8px 0;
+            color: var(--secondary);
+            font-size: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 4px;
+        }
+        .modal-aide-generale h4:first-of-type { margin-top: 4px; }
+        .modal-aide-generale ul {
+            margin: 0 0 6px 0;
+            padding-left: 22px;
+        }
+        .modal-aide-generale li {
+            margin: 0 0 8px 0;
+            font-size: 0.9rem;
+            line-height: 1.45;
+            color: #333;
+        }
+        .modal-aide-generale li b { color: #222; }
+        .modal-aide-generale .aide-note {
+            margin-top: 14px;
+            padding-top: 10px;
+            border-top: 1px solid #e0e0e0;
+            font-weight: bold;
+            color: var(--secondary);
+            text-align: center;
+        }
 
         .modal-confidentialite-overlay {
             display: none;
@@ -1050,6 +1349,7 @@
             <div class="search-container">
                 <input type="text" id="search-input" class="search-input" placeholder="🔍 Lieu, ou coordonnées GPS (ex: 44.8645, 1.3532)">
                 <button id="btn-confidentialite" class="btn-confidentialite" onclick="ouvrirConfidentialite()" title="Confidentialité">🔒</button>
+                <button id="btn-aide-generale" class="btn-aide-generale" onclick="ouvrirAideGenerale()" title="Aide : que peut faire ce site ?">❓</button>
                 <div id="search-results" class="search-results"></div>
             </div>
 
@@ -1059,7 +1359,7 @@
             <span class="menu-toggle-arrow">▲</span>
         </div>
                 <div class="dropdown-group">
-                    <label class="menu-titre-section" data-sous-menu="sous-menu-top12" onclick="toggleSousMenu('sous-menu-top12')">🗺️ 12 SPOTS "fraîcheur" (50km max de St. Amand) <span class="aide-icone" title="12 lieux sélectionnés par le seul administrateur TP (modifiable que par lui.)" onclick="event.stopPropagation(); ouvrirAideTop12();">?</span> <span class="sous-menu-arrow">▼</span></label>
+                    <label class="menu-titre-section" data-sous-menu="sous-menu-top12" onclick="toggleSousMenu('sous-menu-top12')"><span class="menu-categorie-badge badge-top12">T</span> 🗺️ 12 SPOTS "fraîcheur" (50km max de St. Amand) <span class="aide-icone" title="12 lieux sélectionnés par le seul administrateur TP (modifiable que par lui.)" onclick="event.stopPropagation(); ouvrirAideTop12();">?</span> <span class="sous-menu-arrow">▼</span></label>
                     <div class="sous-menu-contenu" id="sous-menu-top12">
                     <select id="top10-select" class="top10-select">
                         <option value="">— Choisir un spot dans le Top 12 —</option>
@@ -1068,7 +1368,7 @@
                     </div>
                 </div>
                 <div class="dropdown-group">
-                    <label class="menu-titre-section" data-sous-menu="sous-menu-carnet" onclick="toggleSousMenu('sous-menu-carnet')">📖 Mon Carnet Virtuel (<span id="nb-count">0</span>) <span class="aide-icone" title="Mon carnet virtuel : il contient les lieux qu'on recherche et qu'on inscrit. On peut en inscrire plusieurs et les sauvegarder dans un « Road Trip ». Il contient par défaut pour exemple un Road Trip « Ardèche »." onclick="event.stopPropagation(); ouvrirAideCarnet();">?</span> <span class="sous-menu-arrow">▼</span></label>
+                    <label class="menu-titre-section" data-sous-menu="sous-menu-carnet" onclick="toggleSousMenu('sous-menu-carnet')"><span class="menu-categorie-badge badge-carnet">C</span> 📖 Mon Carnet Virtuel (<span id="nb-count">0</span>) <span class="aide-icone" title="Mon carnet virtuel : il contient les lieux qu'on recherche et qu'on inscrit. On peut en inscrire plusieurs et les sauvegarder dans un « Road Trip ». Il contient par défaut pour exemple un Road Trip « Ardèche »." onclick="event.stopPropagation(); ouvrirAideCarnet();">?</span> <span class="sous-menu-arrow">▼</span></label>
                     <div class="sous-menu-contenu" id="sous-menu-carnet">
                     <select id="notebook-select" class="top10-select">
                         <option value="">— Choisir un spot dans le carnet —</option>
@@ -1122,7 +1422,7 @@
                     </div>
                 </div>
                 <div class="dropdown-group">
-                    <label class="menu-titre-section" data-sous-menu="sous-menu-lieux" onclick="toggleSousMenu('sous-menu-lieux')">📚 Base de Lieux <span class="aide-icone" title="Elle contient des lieux enregistrés par le seul administrateur TP et n'est modifiable que par lui." onclick="event.stopPropagation(); ouvrirAideLieux();">?</span> <span class="sous-menu-arrow">▼</span></label>
+                    <label class="menu-titre-section" data-sous-menu="sous-menu-lieux" onclick="toggleSousMenu('sous-menu-lieux')"><span class="menu-categorie-badge badge-lieux"></span> 📚 Base de Lieux <span class="aide-icone" title="Elle contient des lieux enregistrés par le seul administrateur TP et n'est modifiable que par lui." onclick="event.stopPropagation(); ouvrirAideLieux();">?</span> <span class="sous-menu-arrow">▼</span></label>
                     <div class="sous-menu-contenu" id="sous-menu-lieux">
                     <select id="lieux-select" class="top10-select" disabled>
                         <option value="">🔧 Adresse à venir...</option>
@@ -1146,6 +1446,84 @@
                     <p style="color:red;">Seul le TOP 12 est public, modifiable par le seul administrateur du site (TP).</p>
                     <p>Les données personnelles sont mémorisées dans les caches des navigateurs utilisés pour consulter le site.</p>
                     <p style="color:green; font-weight:bold; margin-top:15px;">Ce site est libre, le code peut être modifié pour l'adapter à toute autre recherche de lieux : coins à champignon, road trip etc...</p>
+                </div>
+            </div>
+
+            <div id="modal-aide-generale-overlay" class="modal-confidentialite-overlay" onclick="if(event.target===this) fermerAideGenerale();">
+                <div class="modal-confidentialite modal-aide-generale">
+                    <button class="close-btn-modal" onclick="fermerAideGenerale()">×</button>
+                    <h3>❓ Ce que permet ce site</h3>
+
+                    <h4>🔍 Recherche &amp; Géolocalisation</h4>
+                    <ul>
+                        <li><b>Recherche par mots-clés, coordonnées GPS, double clic sur la carte</b> : trouvez instantanément un lieu (n'importe où en Europe) en tapant son nom ou directement ses coordonnées (ex : 44.8645, 1.3532).</li>
+                    </ul>
+
+                    <h4>🗺️ Cartographie &amp; Spots thématiques</h4>
+                    <ul>
+                        <li><b>12 Spots « Fraîcheur » 🌊</b> : une sélection fixe de 12 lieux préservés en Dordogne.</li>
+                        <li><b>Base de Lieux exclusive 📚</b> : accès direct à un catalogue de lieux officiels enregistrés (chargé de manière dynamique).</li>
+                        <li><b>Affichage à la carte 🙈</b> : affichez ou masquez les repères par catégorie à l'aide de filtres visuels (pastilles colorées : T pour le Top 12, C pour le Carnet, etc.).</li>
+                    </ul>
+
+                    <h4>📖 Planification &amp; Gestion de Road Trips</h4>
+                    <ul>
+                        <li><b>Carnet Virtuel Personnel</b> : un espace privé pour inscrire vos propres découvertes ou vos recherches. Un exemple complet de Road Trip en Ardèche y est pré-chargé par défaut.</li>
+                        <li><b>Sauvegarde locale 💾</b> : créez et nommez vos propres itinéraires (ex : « Ardèche Août 2026 »). Les données restent privées, stockées dans votre navigateur ou un dossier de votre appareil.</li>
+                        <li><b>Export &amp; Import de fichiers 📁</b> : enregistrez vos circuits sur votre appareil (ordinateur ou smartphone) pour les recharger plus tard, même sans connexion.</li>
+                    </ul>
+
+                    <h4>📤 Partage Simple &amp; Chiffrement Sécurisé (Titicrypt)</h4>
+                    <ul>
+                        <li><b>Fiche de partage direct 📍</b> : génère automatiquement un résumé clair du lieu avec vos commentaires et des liens d'itinéraires vers Google Maps et OpenStreetMap.</li>
+                        <li><b>Chiffrement de messages secrets 🔐</b> : module de chiffrement exclusif pour crypter vos notes privées à l'aide d'une clé alphanumérique et d'un indice de votre choix.</li>
+                        <li><b>Envois instantanés 💬</b> : raccourcis intégrés pour envoyer vos fiches ou vos codes cryptés par WhatsApp, SMS ou Email.</li>
+                        <li><b>Gestion des médias 📷</b> : joignez une photo (fichiers, appareil photo ou URL web), prévisualisez-la, copiez-la ou téléchargez-la.</li>
+                    </ul>
+
+                    <h4>🔒 Confidentialité &amp; Sécurité</h4>
+                    <ul>
+                        <li><b>Respect de la vie privée 🔒</b> : vos recherches et les points que vous placez restent strictement anonymes. Rien n'est envoyé ni diffusé sur un serveur public.</li>
+                        <li><b>Prévention 🌿</b> : un bandeau rappelle la sécurité et le respect des réglementations liées à la baignade.</li>
+                    </ul>
+
+                    <h4>Pour chaque lieu trouvé</h4>
+
+                    <h4>🌤️ Météo en Temps Réel</h4>
+                    <ul>
+                        <li><b>Météo actuelle</b> : affichage instantané de la température, du ciel (soleil, pluie, nuages) et du vent sur le spot.</li>
+                    </ul>
+
+                    <h4>🎥 Webcams en Direct</h4>
+                    <ul>
+                        <li><b>Aperçu visuel</b> : recherche automatique des webcams publiques ou touristiques les plus proches (villes voisines, vallées, rivières).</li>
+                        <li><b>État du spot</b> : idéal pour vérifier la fréquentation ou les conditions météo réelles avant de prendre la route.</li>
+                    </ul>
+
+                    <h4>🏛️ Visites &amp; Activités à Proximité</h4>
+                    <ul>
+                        <li><b>Patrimoine &amp; Loisirs</b> : suggestions automatiques des points d'intérêt dans un rayon de 5 à 10 km (châteaux, grottes, villages classés, points de vue).</li>
+                    </ul>
+
+                    <h4>🌐 Informations Officielles &amp; Médias</h4>
+                    <ul>
+                        <li><b>Site Web Officiel</b> : lien direct vers l'office de tourisme local ou la page de la commune pour les horaires, tarifs ou réglementations.</li>
+                        <li><b>Galerie Photos enrichie 📷</b> : en plus de votre photo perso, un carrousel d'images libres de droits ou communautaires pour visualiser le lieu sous différents angles.</li>
+                        <li><b>Description détaillée</b> : un texte de présentation enrichi (histoire du lieu, anecdotes ou conseils pratiques d'accès).</li>
+                    </ul>
+
+                    <h4>🚗 Trajets depuis votre position</h4>
+                    <ul>
+                        <li><b>Calcul de distance</b> : affichage immédiat du nombre de kilomètres et du temps de trajet estimé (voiture, vélo ou à pied) depuis votre position GPS actuelle.</li>
+                    </ul>
+
+                    <h4>📤 Partage &amp; Enregistrement Avancés</h4>
+                    <ul>
+                        <li><b>Enregistrement en 1 clic</b> : bouton rapide pour basculer instantanément le lieu trouvé vers votre Carnet Virtuel Personnel ou vos favoris.</li>
+                        <li><b>Partage universel 💬</b> : génère un message structuré (nom, description, météo du jour, lien GPS) prêt à être envoyé par WhatsApp, SMS ou Email.</li>
+                    </ul>
+
+                    <p class="aide-note">Bons voyages 🌿</p>
                 </div>
             </div>
 
@@ -1611,19 +1989,23 @@
         // LOGIQUE ORIGINALE ET CONTEXTE GÉOGRAPHIQUE
         // ==========================================
         const initialSpots = [
-            { id: 1, title: "1. Saint-Julien-de-Lampon (Plage discrète)", lat: 44.8645, lng: 1.3532, desc: ["Le vrai spot 'tranquille'", "Petite plage naturelle, très peu de monde.", "Eau large et agréable."], img: null, isCustom: false },
-            { id: 2, title: "2. Carsac-Aillac – Rocher de la Cave", lat: 44.8398, lng: 1.2995, desc: ["Zone connue... mais cachée si tu t'éloignes", "Criques naturelles", "Coins ombragés sous les arbres."], img: null, isCustom: false },
-            { id: 3, title: "3. Vitrac (Amont / Aval)", lat: 44.8302, lng: 1.2315, desc: ["À 200m de la plage principale = calme total", "Bancs de sable isolés", "Le secret bien gardé des locaux."], img: null, isCustom: false },
-            { id: 4, title: "4. La Roque-Gageac (Criques sous falaise)", lat: 44.8252, lng: 1.1838, desc: ["Petites plages caches sous les falaises", "Ambiance magique le soir."], img: null, isCustom: false },
-            { id: 5, title: "5. Beynac – Berges secondaires", lat: 44.8385, lng: 1.1442, desc: ["Accès rivière discret", "Zones calmes derrière les embarcadères."], img: null, isCustom: false },
-            { id: 6, title: "6. Limeuil (Côté Vézère)", lat: 44.8833, lng: 0.8936, desc: ["La confluence magique", "Côté Vézère = beaucoup plus calme."], img: null, isCustom: false },
-            { id: 7, title: "7. Tamniès (Hors plage principale)", lat: 44.9658, lng: 1.1511, desc: ["Plan d'eau connu mais berges secondaires tranquilles."], img: null, isCustom: false },
-            { id: 8, title: "8. Groléjac (Contours du lac)", lat: 44.8211, lng: 1.2915, desc: ["Le spot familial... mais stratégique", "Contour gauche = beaucoup moins de monde."], img: null, isCustom: false },
-            { id: 9, title: "9. Castelnaud – Aval du pont", lat: 44.8315, lng: 1.1482, desc: ["Moins connu des touristes", "Petites plages naturelles."], img: null, isCustom: false },
-            { id: 10, title: "10. Coux-et-Bigaroque (Berges sauvages)", lat: 44.8342, lng: 0.9739, desc: ["Un des coins les plus 'nature'", "Parfait pour une baignade 100% sauvage."], img: null, isCustom: false },
-            { id: 11, title: "11. Route des Guignes (24620 Les Eyzies)", lat: 44.949663, lng: 1.020353, desc: ["Accès discret aux berges de la Vézère par un petit chemin", "Loin de l'agitation du centre des Eyzies", "Idéal pour une baignade tranquille."], img: null, isCustom: false },
-            { id: 12, title: "12. Cubjac (24640 Cubjac-Auvézère-Val d'Ans)", lat: 45.2210, lng: 0.9390, desc: ["Plage fluviale aménagée au-dessus du barrage sur l'Auvézère", "Pataugeoire pour enfants et parking sur les deux rives", "Cadre naturel préservé, parfait pour la famille."], img: null, isCustom: false }
+            { id: 1, title: "1. Saint-Julien-de-Lampon (Plage discrète)", lat: 44.8645, lng: 1.3532, desc: ["Le vrai spot 'tranquille'", "Petite plage naturelle, très peu de monde.", "Eau large et agréable."], img: null, isCustom: false, isTop12: true },
+            { id: 2, title: "2. Carsac-Aillac – Rocher de la Cave", lat: 44.8398, lng: 1.2995, desc: ["Zone connue... mais cachée si tu t'éloignes", "Criques naturelles", "Coins ombragés sous les arbres."], img: null, isCustom: false, isTop12: true },
+            { id: 3, title: "3. Vitrac (Amont / Aval)", lat: 44.8302, lng: 1.2315, desc: ["À 200m de la plage principale = calme total", "Bancs de sable isolés", "Le secret bien gardé des locaux."], img: null, isCustom: false, isTop12: true },
+            { id: 4, title: "4. La Roque-Gageac (Criques sous falaise)", lat: 44.8252, lng: 1.1838, desc: ["Petites plages caches sous les falaises", "Ambiance magique le soir."], img: null, isCustom: false, isTop12: true },
+            { id: 5, title: "5. Beynac – Berges secondaires", lat: 44.8385, lng: 1.1442, desc: ["Accès rivière discret", "Zones calmes derrière les embarcadères."], img: null, isCustom: false, isTop12: true },
+            { id: 6, title: "6. Limeuil (Côté Vézère)", lat: 44.8833, lng: 0.8936, desc: ["La confluence magique", "Côté Vézère = beaucoup plus calme."], img: null, isCustom: false, isTop12: true },
+            { id: 7, title: "7. Tamniès (Hors plage principale)", lat: 44.9658, lng: 1.1511, desc: ["Plan d'eau connu mais berges secondaires tranquilles."], img: null, isCustom: false, isTop12: true },
+            { id: 8, title: "8. Groléjac (Contours du lac)", lat: 44.8211, lng: 1.2915, desc: ["Le spot familial... mais stratégique", "Contour gauche = beaucoup moins de monde."], img: null, isCustom: false, isTop12: true },
+            { id: 9, title: "9. Castelnaud – Aval du pont", lat: 44.8315, lng: 1.1482, desc: ["Moins connu des touristes", "Petites plages naturelles."], img: null, isCustom: false, isTop12: true },
+            { id: 10, title: "10. Coux-et-Bigaroque (Berges sauvages)", lat: 44.8342, lng: 0.9739, desc: ["Un des coins les plus 'nature'", "Parfait pour une baignade 100% sauvage."], img: null, isCustom: false, isTop12: true },
+            { id: 11, title: "11. Route des Guignes (24620 Les Eyzies)", lat: 44.949663, lng: 1.020353, desc: ["Accès discret aux berges de la Vézère par un petit chemin", "Loin de l'agitation du centre des Eyzies", "Idéal pour une baignade tranquille."], img: null, isCustom: false, isTop12: true },
+            { id: 12, title: "12. Cubjac (24640 Cubjac-Auvézère-Val d'Ans)", lat: 45.2210, lng: 0.9390, desc: ["Plage fluviale aménagée au-dessus du barrage sur l'Auvézère", "Pataugeoire pour enfants et parking sur les deux rives", "Cadre naturel préservé, parfait pour la famille."], img: null, isCustom: false, isTop12: true }
         ];
+
+        // Numéro "+T" attribué à chaque lieu du Top 12 lors du chargement (1T, 2T, ... 12T) :
+        // c'est ce même numéro qui sera affiché sur le repère correspondant sur la carte.
+        initialSpots.forEach((spot, index) => { spot.numero = (index + 1) + 'T'; });
 
         // Road trip Ardèche (10 jours + 2 sites bonus, base : gîte de Saint-Sernin 07200) — Août 2026
         // Ces 10 lieux sont injectés automatiquement dans le Carnet Virtuel au premier
@@ -1667,6 +2049,7 @@
         let allSpots = [...initialSpots, ...customSpots];
         let map;
         const markers = {};
+        renumeroterCarnet();
         let searchTimeout;
         let tempMarker = null;
 
@@ -1749,6 +2132,16 @@ if (btnToggleLieux) {
             if (overlay) overlay.classList.add('visible');
         }
 
+        function ouvrirAideGenerale() {
+            const overlay = document.getElementById('modal-aide-generale-overlay');
+            if (overlay) overlay.classList.add('visible');
+        }
+
+        function fermerAideGenerale() {
+            const overlay = document.getElementById('modal-aide-generale-overlay');
+            if (overlay) overlay.classList.remove('visible');
+        }
+
         function ouvrirAideCarnet() {
             const overlay = document.getElementById('modal-aide-carnet-overlay');
             if (overlay) overlay.classList.add('visible');
@@ -1815,6 +2208,9 @@ if (btnToggleLieux) {
 
                 lieuxDBSpots = items.map((item, index) => ({
                     id: 'lieux-' + (item.id ?? index),
+                    // Numéro attribué au lieu lors du chargement de la base : c'est ce même numéro
+                    // qui sera affiché sur le repère correspondant lorsqu'on montre la carte.
+                    numero: index + 1,
                     title: item.title || item.nom || 'Lieu sans nom',
                     lat: parseFloat(item.lat),
                     lng: parseFloat(item.lng ?? item.lon),
@@ -1837,7 +2233,7 @@ if (btnToggleLieux) {
                     }
                     const option = document.createElement('option');
                     option.value = spot.id;
-                    option.innerText = spot.title;
+                    option.innerText = spot.numero + '. ' + spot.title;
                     lieuxSelect.appendChild(option);
                 });
                 lieuxSelect.disabled = lieuxDBSpots.length === 0;
@@ -1956,10 +2352,80 @@ if (btnToggleLieux) {
         }
         demarrerCarte(50);
 
+        // Icônes numérotées pour les repères de la Base de Lieux : un même numéro (attribué au
+        // chargement de la base) est réutilisé pour l'icône, mise en cache pour éviter d'en
+        // recréer une identique à chaque marqueur.
+        const iconesNumeroteesCache = {};
+        function getIconeNumerotee(numero) {
+            if (!iconesNumeroteesCache[numero] && typeof L !== 'undefined') {
+                iconesNumeroteesCache[numero] = L.divIcon({
+                    html: `<div class="lieux-db-numero-icon"><span>${numero}</span></div>`,
+                    className: '',
+                    iconSize: [28, 28],
+                    iconAnchor: [14, 28],
+                    popupAnchor: [0, -28]
+                });
+            }
+            return iconesNumeroteesCache[numero];
+        }
+
+        // Icônes numérotées pour les repères du Top 12 (numéro du type "1T" à "12T",
+        // attribué au chargement de initialSpots), mises en cache de la même façon.
+        const iconesTop12Cache = {};
+        function getIconeTop12(numero) {
+            if (!iconesTop12Cache[numero] && typeof L !== 'undefined') {
+                iconesTop12Cache[numero] = L.divIcon({
+                    html: `<div class="top12-numero-icon"><span>${numero}</span></div>`,
+                    className: '',
+                    iconSize: [28, 28],
+                    iconAnchor: [14, 28],
+                    popupAnchor: [0, -28]
+                });
+            }
+            return iconesTop12Cache[numero];
+        }
+
+        // Icônes numérotées pour les repères du Carnet Virtuel (numéro du type "1C" à "nC",
+        // recalculé à chaque chargement/modification du carnet via renumeroterCarnet()).
+        const iconesCarnetCache = {};
+        function getIconeCarnet(numero) {
+            if (!iconesCarnetCache[numero] && typeof L !== 'undefined') {
+                iconesCarnetCache[numero] = L.divIcon({
+                    html: `<div class="carnet-numero-icon"><span>${numero}</span></div>`,
+                    className: '',
+                    iconSize: [28, 28],
+                    iconAnchor: [14, 28],
+                    popupAnchor: [0, -28]
+                });
+            }
+            return iconesCarnetCache[numero];
+        }
+
+        // Attribue (ou réattribue) à chaque lieu du Carnet Virtuel un numéro "+C" (1C, 2C, ...)
+        // selon son ordre dans customSpots, et met à jour l'icône du repère déjà créé sur la
+        // carte le cas échéant. À appeler à chaque chargement ou modification du carnet
+        // (ajout, suppression, vidage, chargement d'un road trip, import...).
+        function renumeroterCarnet() {
+            const spotsCarnet = customSpots.filter(s => !s.isLieuxDB);
+            spotsCarnet.forEach((spot, index) => {
+                spot.numero = (index + 1) + 'C';
+                const marker = markers[spot.id];
+                if (marker) marker.setIcon(getIconeCarnet(spot.numero));
+            });
+        }
+
         function createMarker(spot) {
             if (typeof L === 'undefined' || !map || markers[spot.id]) return;
             try {
-                const marker = L.marker([spot.lat, spot.lng]).addTo(map);
+                let options = {};
+                if (spot.isLieuxDB && spot.numero) {
+                    options = { icon: getIconeNumerotee(spot.numero) };
+                } else if (spot.isTop12 && spot.numero) {
+                    options = { icon: getIconeTop12(spot.numero) };
+                } else if (spot.isCustom && spot.numero) {
+                    options = { icon: getIconeCarnet(spot.numero) };
+                }
+                const marker = L.marker([spot.lat, spot.lng], options).addTo(map);
                 marker.bindPopup(() => createPopupContent(spot));
                 marker.on('click', (e) => {
                     L.DomEvent.stopPropagation(e);
@@ -2185,7 +2651,7 @@ if (btnToggleLieux) {
                 <h4>📍 Nouveau lieu</h4>
                 <div id="weather-info-${uid}" class="weather-info popup-weather-info">🌡️ Recherche de la météo...</div>
                 <div id="webcam-info-${uid}" class="webcam-info popup-webcam-info"></div>
-                <p style="font-size:0.8rem; color:#555; margin:0 0 4px 0; text-align:left;">
+                <p style="font-size:0.8rem; color:#555; margin:0 0 4px 0; text-align:left; background:white; padding:4px 8px; border-radius:6px;">
                     Latitude : ${lat}<br>Longitude : ${lng}
                 </p>
                 <label class="popup-field-label" for="nomLieu-${uid}">Nom du lieu</label>
@@ -2345,7 +2811,7 @@ if (btnToggleLieux) {
             const div = document.createElement('div');
             div.className = 'popup-bubble-content';
             div.innerHTML = `
-                <h4>${spot.title}</h4>
+                <h4>${(spot.numero && !spot.isTop12) ? spot.numero + '. ' : ''}${spot.title}</h4>
                 <div style="display:flex;gap:4px;justify-content:center;">
                     <button class="popup-btn ${isFavorite ? 'active' : ''}" onclick="toggleNotebook('${spot.id}'); refreshPopup('${spot.id}'); event.stopPropagation();">
                         ${isFavorite ? '❤️ Retirer' : '📖 Inscrire'}
@@ -2381,11 +2847,12 @@ if (btnToggleLieux) {
                     <img src="${spot.img}" alt="${spot.title}" onerror="this.parentElement.style.display='none';">
                 </div>` : ''}
                 <div class="details-info">
-                    <h2>${spot.title} <small style="font-size:0.8rem; color:${spot.isLieuxDB ? 'var(--public-db)' : (spot.isCustom ? 'var(--public-db)':'var(--accent)')}">${spot.isLieuxDB ? '[Base de Lieux]' : (spot.isCustom ? '[Nouveau Site]' : '[Secret Local]')}</small></h2>
+                    <h2>${(spot.numero && !spot.isTop12) ? spot.numero + '. ' : ''}${spot.title} <small style="font-size:0.8rem; color:${spot.isLieuxDB ? 'var(--public-db)' : (spot.isCustom ? 'var(--public-db)':'var(--accent)')}">${spot.isLieuxDB ? '[Base de Lieux]' : (spot.isCustom ? '[Nouveau Site]' : '[Secret Local]')}</small></h2>
                     <div id="weather-info" class="weather-info">🌡️ Recherche de la température...</div>
                     <div id="webcam-info" class="webcam-info"></div>
                     <div id="social-info" class="social-info"></div>
                     <ul>${descListHtml}</ul>
+                    <div id="nearby-info" class="nearby-info"></div>
                     <div class="btn-container">
                         <a href="${googleMapsUrl}" target="_blank" class="btn btn-google">🗺️ Itinéraire</a>
                         <a href="${googleImagesUrl}" target="_blank" class="btn btn-images">📸 Photos</a>
@@ -2401,6 +2868,7 @@ if (btnToggleLieux) {
             afficherTemperature(spot);
             chargerWebcamsProches(spot.lat, spot.lng, 'webcam-info');
             afficherReseauxSociaux(spot);
+            chargerLieuxProches(spot, 'nearby-info');
         }
 
         // --- Météo en temps réel (Open-Meteo, gratuit, sans clé, résolution ~quelques km
@@ -2647,6 +3115,316 @@ if (btnToggleLieux) {
                 });
         }
 
+        // --- Lieux touristiques "À visiter" à proximité (rayon 20 km autour du lieu affiché) ---
+        // Contrairement aux lieux de baignade (Top 12 / Base de lieux / Carnet), il s'agit ici de
+        // vrais lieux touristiques (points de vue, musées, sites historiques, cascades, grottes...)
+        // trouvés via OpenStreetMap (API Overpass), et non des lieux déjà référencés sur le site.
+        // Affiché dans le panneau de détails comme pour les webcams, avec repère numéroté identique
+        // sur la carte, affiché automatiquement et masquable/réaffichable à la demande.
+        const RAYON_LIEUX_PROCHES_KM = 80;
+        const NB_MAX_LIEUX_PROCHES = 10;
+
+        // Catégories OSM considérées comme "lieux touristiques" (tourism / historic / natural / leisure)
+        const TYPES_LIEUX_TOURISTIQUES = [
+            { test: t => t.tourism === 'viewpoint',      icone: '👁️', label: 'Point de vue' },
+            { test: t => t.tourism === 'museum',         icone: '🏛️', label: 'Musée' },
+            { test: t => t.tourism === 'attraction',     icone: '⭐', label: 'Attraction' },
+            { test: t => !!t.historic,                   icone: '🏰', label: 'Site historique' },
+            { test: t => t.natural === 'waterfall',      icone: '💦', label: 'Cascade' },
+            { test: t => t.natural === 'cave_entrance',  icone: '🕳️', label: 'Grotte' },
+            { test: t => t.natural === 'peak',           icone: '⛰️', label: 'Sommet' },
+            { test: t => t.leisure === 'nature_reserve', icone: '🌳', label: 'Réserve naturelle' }
+        ];
+        function typeLieuTouristique(tags) {
+            const trouve = TYPES_LIEUX_TOURISTIQUES.find(x => { try { return x.test(tags || {}); } catch (e) { return false; } });
+            return trouve || { icone: '🚩', label: 'À visiter' };
+        }
+
+        const nearbyRequestCounters = {};
+        const nearbyDataStore = {};   // elementId -> { lat, lng, lieux: [{ id, title, lat, lng, dist, numero, icone, label, osmUrl }, ...] }
+        const nearbyMapMarkers = {};  // elementId -> [L.marker, ...] actuellement affichés sur la carte
+
+        const iconesLieuxProchesCache = {};
+        function getIconeLieuProche(numero) {
+            if (!iconesLieuxProchesCache[numero] && typeof L !== 'undefined') {
+                iconesLieuxProchesCache[numero] = L.divIcon({
+                    html: `<div class="nearby-numero-icon"><span>🚩${numero}</span></div>`,
+                    className: '',
+                    iconSize: [30, 30],
+                    iconAnchor: [15, 30],
+                    popupAnchor: [0, -30]
+                });
+            }
+            return iconesLieuxProchesCache[numero];
+        }
+
+        // Retire de la carte les repères "À visiter" précédemment affichés pour un bloc donné
+        // (avant une nouvelle sélection de lieu, ou pour masquer sur demande).
+        function retirerLieuxProchesDeLaCarte(elementId) {
+            if (map && nearbyMapMarkers[elementId]) {
+                nearbyMapMarkers[elementId].forEach(m => map.removeLayer(m));
+            }
+            nearbyMapMarkers[elementId] = [];
+            const btn = document.getElementById(`btn-nearby-carte-${elementId}`);
+            if (btn) { btn.classList.remove('active'); btn.innerText = '🗺️ Afficher sur la carte'; }
+        }
+
+        // Place sur la carte les repères numérotés "À visiter" pour le bloc donné.
+        function afficherLieuxProchesSurCarte(elementId) {
+            if (!map) return;
+            const donnees = nearbyDataStore[elementId];
+            if (!donnees || donnees.lieux.length === 0) return;
+
+            nearbyMapMarkers[elementId] = donnees.lieux.map((o, i) => {
+                const marker = L.marker([o.lat, o.lng], { icon: getIconeLieuProche(o.numero) }).addTo(map);
+                marker.bindPopup(`${o.icone} <b>${o.numero}. ${o.title}</b><br>${o.label} — à ${o.dist} km${o.osmUrl ? `<br><a href="${o.osmUrl}" target="_blank" rel="noopener">Voir sur OpenStreetMap ↗</a>` : ''}`);
+                return marker;
+            });
+
+            const btn = document.getElementById(`btn-nearby-carte-${elementId}`);
+            if (btn) { btn.classList.add('active'); btn.innerText = '🙈 Masquer de la carte'; }
+        }
+
+        // Affiche/masque, à la demande (clic du bouton), les repères "À visiter" trouvés
+        // autour du lieu choisi — sans effet sur les autres repères de la carte.
+        function toggleLieuxProchesSurCarte(elementId) {
+            if (!map) return;
+            const dejaAffiches = nearbyMapMarkers[elementId] && nearbyMapMarkers[elementId].length > 0;
+            if (dejaAffiches) { retirerLieuxProchesDeLaCarte(elementId); return; }
+            afficherLieuxProchesSurCarte(elementId);
+        }
+
+        // Sélection d'un lieu "À visiter" depuis le menu déroulant : centre la carte dessus et
+        // ouvre son repère, puis remet le menu sur son option "placeholder" (permet de re-choisir
+        // le même lieu ensuite si besoin, comme pour le menu des webcams).
+        function choisirLieuProcheDansListe(elementId, valeur) {
+            if (valeur === '') return;
+            voirLieuProcheSurCarte(elementId, parseInt(valeur, 10));
+            const select = document.getElementById(`select-nearby-${elementId}`);
+            if (select) select.value = '';
+        }
+
+        // Centre la carte sur un lieu "À visiter" cliqué depuis la liste du panneau de détails
+        // et ouvre son repère (sans changer le lieu de baignade actuellement affiché).
+        function voirLieuProcheSurCarte(elementId, index) {
+            if (!map) return;
+            const donnees = nearbyDataStore[elementId];
+            if (!donnees) return;
+            const lieu = donnees.lieux[index];
+            if (!lieu) return;
+            if (!(nearbyMapMarkers[elementId] && nearbyMapMarkers[elementId].length)) afficherLieuxProchesSurCarte(elementId);
+            map.setView([lieu.lat, lieu.lng], 15);
+            const marker = nearbyMapMarkers[elementId] && nearbyMapMarkers[elementId][index];
+            if (marker) marker.openPopup();
+        }
+
+        // --- Source de repli : Wikipedia Geosearch (si tous les miroirs Overpass échouent) ---
+        // API très légère, rapide et fiable (CORS géré nativement via origin=*), qui remonte les
+        // articles Wikipedia notables autour d'un point (monuments, sites, villages pittoresques...).
+        // Son rayon maximal est de 10 km (limite imposée par l'API), donc légèrement inférieur au
+        // rayon de recherche demandé si celui-ci est plus grand.
+        async function chercherLieuxViaWikipedia(lat, lng, rayonMetres) {
+            const rayonWiki = Math.min(rayonMetres, 10000);
+            const url = `https://fr.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}%7C${lng}&gsradius=${rayonWiki}&gslimit=20&format=json&origin=*`;
+            const r = await fetch(url);
+            if (!r.ok) throw new Error('Wikipedia HTTP ' + r.status);
+            const data = await r.json();
+            const resultats = (data && data.query && data.query.geosearch) || [];
+            return resultats.map(item => ({
+                id: `wiki${item.pageid}`,
+                title: item.title,
+                lat: item.lat,
+                lng: item.lon,
+                dist: parseFloat((item.dist / 1000).toFixed(1)),
+                icone: '📖',
+                label: 'À découvrir (Wikipedia)',
+                osmUrl: `https://fr.wikipedia.org/wiki/${encodeURIComponent(item.title.replace(/ /g, '_'))}`
+            }));
+        }
+
+        async function chargerLieuxProches(spot, elementId) {
+            elementId = elementId || 'nearby-info';
+            const nearbyEl = document.getElementById(elementId);
+            if (!nearbyEl) return;
+
+            retirerLieuxProchesDeLaCarte(elementId);
+            delete nearbyDataStore[elementId];
+
+            const latNum = parseFloat(spot.lat), lngNum = parseFloat(spot.lng);
+            if (!isFinite(latNum) || !isFinite(lngNum)) {
+                nearbyEl.classList.remove('has-content', 'nearby-error');
+                nearbyEl.innerHTML = '';
+                return;
+            }
+
+            nearbyRequestCounters[elementId] = (nearbyRequestCounters[elementId] || 0) + 1;
+            const requestId = nearbyRequestCounters[elementId];
+
+            nearbyEl.classList.remove('nearby-error');
+            nearbyEl.classList.add('has-content');
+            nearbyEl.innerHTML = `<div class="nearby-titre"><span>⏳ Recherche de lieux à voir à proximité...</span></div>`;
+
+            const rayonMetres = RAYON_LIEUX_PROCHES_KM * 1000;
+            // Filtrage sur la présence d'un nom directement dans la requête (["name"]) : réduit
+            // fortement le volume de données et le temps de calcul côté serveur Overpass, sachant
+            // que "historic" à lui seul remonterait sinon des milliers de croix de chemin, bornes,
+            // etc. On cible donc aussi les catégories "historic" réellement touristiques.
+            const requete = `[out:json][timeout:25];(
+                nwr["tourism"~"^(attraction|viewpoint|museum)$"]["name"](around:${rayonMetres},${latNum},${lngNum});
+                nwr["historic"~"^(castle|monument|ruins|archaeological_site|fort|fortress|palace|citadel)$"]["name"](around:${rayonMetres},${latNum},${lngNum});
+                nwr["natural"~"^(waterfall|cave_entrance|peak)$"]["name"](around:${rayonMetres},${latNum},${lngNum});
+                nwr["leisure"="nature_reserve"]["name"](around:${rayonMetres},${latNum},${lngNum});
+            );out tags center 80;`;
+
+            // Plusieurs miroirs Overpass, essayés dans l'ordre : le serveur principal peut être
+            // temporairement saturé ou expirer (réponse non-JSON), auquel cas on retente sur un
+            // autre miroir avant d'afficher un message d'erreur. Chaque tentative est bornée dans
+            // le temps (12s) pour ne jamais rester bloqué sur "Recherche..." si un serveur ne
+            // répond pas du tout.
+            const MIROIRS_OVERPASS = [
+                'https://overpass-api.de/api/interpreter',
+                'https://overpass.kumi.systems/api/interpreter',
+                'https://lz4.overpass-api.de/api/interpreter'
+            ];
+            const DELAI_MAX_MIROIR_MS = 18000;
+
+            async function fetchAvecDelaiMax(url, ms) {
+                const controller = new AbortController();
+                const minuteur = setTimeout(() => controller.abort(), ms);
+                try {
+                    return await fetch(url, { signal: controller.signal });
+                } finally {
+                    clearTimeout(minuteur);
+                }
+            }
+
+            let data = null, derniereErreur = null;
+            for (const base of MIROIRS_OVERPASS) {
+                if (nearbyRequestCounters[elementId] !== requestId) return; // requête obsolète : on arrête là
+                try {
+                    const r = await fetchAvecDelaiMax(`${base}?data=${encodeURIComponent(requete)}`, DELAI_MAX_MIROIR_MS);
+                    if (!r.ok) throw new Error('Overpass HTTP ' + r.status);
+                    const texte = await r.text();
+                    data = JSON.parse(texte); // le serveur peut renvoyer du texte brut en cas de timeout/quota
+                    break;
+                } catch (e) {
+                    derniereErreur = e;
+                    console.warn('[Lieux à visiter] Échec sur', base, ':', e.name === 'AbortError' ? 'délai dépassé (12s)' : e.message);
+                }
+            }
+
+            if (nearbyRequestCounters[elementId] !== requestId) return; // requête obsolète
+            const elFresh0 = document.getElementById(elementId);
+            if (!elFresh0) return;
+
+            let procheViaWikipedia = null;
+            if (!data) {
+                console.warn('[Lieux à visiter] Tous les miroirs Overpass ont échoué, tentative via Wikipedia :', derniereErreur);
+                try {
+                    procheViaWikipedia = await chercherLieuxViaWikipedia(latNum, lngNum, rayonMetres);
+                } catch (e) {
+                    console.error('[Lieux à visiter] Wikipedia a également échoué :', e);
+                }
+                if (nearbyRequestCounters[elementId] !== requestId) return; // requête obsolète
+                if (!procheViaWikipedia) {
+                    elFresh0.classList.remove('has-content');
+                    elFresh0.classList.add('nearby-error');
+                    elFresh0.innerHTML = '🚩 Lieux à visiter indisponibles (serveurs OpenStreetMap et Wikipedia inaccessibles, réessayez plus tard)';
+                    return;
+                }
+            }
+
+            try {
+                const elFresh = elFresh0;
+
+                let proches;
+                if (procheViaWikipedia) {
+                    proches = procheViaWikipedia
+                        .filter(o => o.dist <= RAYON_LIEUX_PROCHES_KM)
+                        .sort((a, b) => a.dist - b.dist)
+                        .slice(0, NB_MAX_LIEUX_PROCHES)
+                        .map((o, i) => ({ ...o, numero: i + 1 }));
+                } else {
+                    const elements = (data && data.elements) || [];
+                    const vus = new Set();
+                    proches = elements
+                        .map(e => {
+                            const nom = e.tags && e.tags.name;
+                            if (!nom) return null;
+                            const lat = e.lat !== undefined ? e.lat : (e.center && e.center.lat);
+                            const lng = e.lon !== undefined ? e.lon : (e.center && e.center.lon);
+                            if (!isFinite(lat) || !isFinite(lng)) return null;
+                            const cleDedup = nom.toLowerCase() + '|' + lat.toFixed(3) + '|' + lng.toFixed(3);
+                            if (vus.has(cleDedup)) return null;
+                            vus.add(cleDedup);
+                            const type = typeLieuTouristique(e.tags);
+                            const dist = distanceKm(latNum, lngNum, lat, lng);
+                            return {
+                                id: `${e.type}${e.id}`,
+                                title: nom,
+                                lat, lng,
+                                dist: parseFloat(dist.toFixed(1)),
+                                icone: type.icone,
+                                label: type.label,
+                                osmUrl: `https://www.openstreetmap.org/${e.type}/${e.id}`
+                            };
+                        })
+                        .filter(o => o && o.dist <= RAYON_LIEUX_PROCHES_KM)
+                        .sort((a, b) => a.dist - b.dist)
+                        .slice(0, NB_MAX_LIEUX_PROCHES)
+                        .map((o, i) => ({ ...o, numero: i + 1 }));
+                }
+
+                if (proches.length === 0) {
+                    elFresh.classList.remove('has-content');
+                    elFresh.classList.add('nearby-error');
+                    elFresh.innerHTML = `🚩 Aucun lieu touristique connu à moins de ${RAYON_LIEUX_PROCHES_KM} km`;
+                    return;
+                }
+
+                nearbyDataStore[elementId] = { lat: latNum, lng: lngNum, lieux: proches };
+
+                let contenuListe;
+                if (proches.length === 1) {
+                    const o = proches[0];
+                    contenuListe = `
+                        <div class="nearby-item" onclick="voirLieuProcheSurCarte('${elementId}', 0)">
+                            <span class="nearby-icone">${o.icone} ${o.numero}</span>
+                            <span class="nearby-nom">${o.title}<small style="color:#6c757d;font-weight:normal;"> — ${o.label}</small></span>
+                            <span class="nearby-distance">— ${o.dist} km</span>
+                        </div>`;
+                } else {
+                    const optionsHtml = proches.map((o, i) => `<option value="${i}">${o.icone} ${o.numero}. ${o.title} — ${o.label} (${o.dist} km)</option>`).join('');
+                    contenuListe = `
+                        <select class="nearby-select" id="select-nearby-${elementId}" onchange="choisirLieuProcheDansListe('${elementId}', this.value)">
+                            <option value="" selected disabled>🚩 Choisir un lieu à visiter (${proches.length})</option>
+                            ${optionsHtml}
+                        </select>`;
+                }
+
+                elFresh.classList.add('has-content');
+                elFresh.classList.remove('nearby-error');
+                elFresh.innerHTML = `
+                    <div class="nearby-titre">
+                        <span>🚩 À voir à proximité</span>
+                        <button type="button" id="btn-nearby-carte-${elementId}" class="btn-nearby-carte" onclick="toggleLieuxProchesSurCarte('${elementId}')">🗺️ Afficher sur la carte</button>
+                    </div>
+                    <div class="nearby-list">${contenuListe}</div>
+                `;
+
+                afficherLieuxProchesSurCarte(elementId);
+            } catch (e) {
+                if (nearbyRequestCounters[elementId] !== requestId) return;
+                console.error('[Lieux à visiter] Erreur de traitement des résultats :', e);
+                const elFresh = document.getElementById(elementId);
+                if (elFresh) {
+                    elFresh.classList.remove('has-content');
+                    elFresh.classList.add('nearby-error');
+                    elFresh.innerHTML = '🚩 Lieux à visiter indisponibles (erreur inattendue, voir la console)';
+                }
+            }
+        }
+
         // --- Infos complémentaires du lieu : réseaux sociaux, site officiel... (s'ils existent) ---
         // La recherche n'est pas limitée aux lieux de baignade : elle s'applique à n'importe quel
         // lieu (Top 12, Base de lieux, carnet, recherche libre) et remonte toute info utile trouvée
@@ -2891,6 +3669,7 @@ if (btnToggleLieux) {
         }
 
         function updateNotebookUI() {
+            renumeroterCarnet();
             const select = document.getElementById('notebook-select'); if(!select) return;
             select.innerHTML = ''; document.getElementById('nb-count').innerText = savedSpotIds.length;
 
@@ -2904,7 +3683,7 @@ if (btnToggleLieux) {
 
             allSpots.forEach(spot => {
                 if (savedSpotIds.includes(spot.id.toString())) {
-                    const opt = document.createElement('option'); opt.value = spot.id; opt.innerText = `❤️ ${spot.title}`; select.appendChild(opt);
+                    const opt = document.createElement('option'); opt.value = spot.id; opt.innerText = `❤️ ${(spot.numero && !spot.isTop12) ? spot.numero + '. ' : ''}${spot.title}`; select.appendChild(opt);
                 }
             });
         }
@@ -2981,6 +3760,7 @@ if (btnToggleLieux) {
                     return true;
                 });
             allSpots = [...initialSpots, ...customSpots, ...lieuxDBSpots];
+            renumeroterCarnet();
 
             try {
                 localStorage.setItem('tp_notebook_ids', JSON.stringify(savedSpotIds));
@@ -3566,7 +4346,7 @@ if (btnToggleLieux) {
             });
         }
 
-        function closeDetails() { document.getElementById('details-panel').style.display = 'none'; retirerWebcamsDeLaCarte('webcam-info'); }
+        function closeDetails() { document.getElementById('details-panel').style.display = 'none'; retirerWebcamsDeLaCarte('webcam-info'); retirerLieuxProchesDeLaCarte('nearby-info'); }
         updateNotebookUI();
 
         function toggleSearchMenu() {
