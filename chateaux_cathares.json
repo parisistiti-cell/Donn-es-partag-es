@@ -1,0 +1,183 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "châteaux Cathares",
+  "savedSpotIds": [
+    "cathares-1",
+    "cathares-2",
+    "cathares-3",
+    "cathares-4",
+    "cathares-5",
+    "cathares-6",
+    "cathares-6bis",
+    "cathares-7",
+    "cathares-8",
+    "cathares-9",
+    "cathares-10",
+    "cathares-11",
+    "cathares-12"
+  ],
+  "customSpots": [
+    {
+      "id": "cathares-1",
+      "title": "1 - Carcassonne",
+      "lat": 43.2060816,
+      "lng": 2.3641961,
+      "desc": [
+        "Remparts impressionnants et Château Comtal",
+        "Panorama spectaculaire sur la cité depuis le Pont Vieux"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-2",
+      "title": "2 - Minerve",
+      "lat": 43.3541309,
+      "lng": 2.7463235,
+      "desc": [
+        "Ancienne place forte cathare suspendue au-dessus des canyons de la Cesse et du Brian",
+        "Ponts naturels creusés dans la roche et la \"Malvoisine\" (reconstitution de catapulte médiévale)"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-3",
+      "title": "3 - Limoux",
+      "lat": 43.053511,
+      "lng": 2.2174949,
+      "desc": [
+        "Place de la République entourée d'arcades, pont vieux, berges de l'Aude",
+        "Dégustation de la Blanquette de Limoux, plus ancien vin effervescent du monde",
+        "Grand marché hebdomadaire traditionnel sous les halles"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-4",
+      "title": "4 - Canal du Midi",
+      "lat": 43.2427146,
+      "lng": 2.4054572,
+      "desc": [
+        "Pause rafraîchissante au bord du canal",
+        "Promenade à pied, à vélo ou mini-croisière en péniche"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-5",
+      "title": "5 - Lagrasse (châteaux cathares)",
+      "lat": 43.0906269,
+      "lng": 2.6167583,
+      "desc": [
+        "Classé parmi les \"Plus Beaux Villages de France\"",
+        "Cœur médiéval, halles du XIVe siècle, abbaye bénédictine Sainte-Marie",
+        "Dégustation de vins d'AOC Corbières chez un vigneron local"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-6",
+      "title": "6 - Quéribus (châteaux cathares)",
+      "lat": 42.8367719,
+      "lng": 2.6214955,
+      "desc": [
+        "Sentinelle de pierre suspendue sur un éperon rocheux à 728 m d'altitude",
+        "Salle gothique du donjon"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-6bis",
+      "title": "6 bis - Cucugnan",
+      "lat": 42.850466,
+      "lng": 2.603575,
+      "desc": [
+        "Village célèbre pour son meunier et son sermon",
+        "Pause bucolique entre Quéribus et Peyrepertuse"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-7",
+      "title": "7 - Puivert (châteaux cathares)",
+      "lat": 42.9211626,
+      "lng": 2.0552762,
+      "desc": [
+        "Donjon abritant la salle des Musiciens, hommage à l'art des troubadours",
+        "Paisible lac de Puivert au pied du château"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-8",
+      "title": "8 - Villerouge-Termenès (châteaux cathares)",
+      "lat": 43.0069153,
+      "lng": 2.6267517,
+      "desc": [
+        "Château fort restauré, histoire de Guillaume Bélibaste, dernier parfait cathare brûlé en 1321",
+        "Rôtisserie médiévale proposant des recettes authentiques du Moyen Âge"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-9",
+      "title": "9 - Montségur (châteaux cathares)",
+      "lat": 42.8757967,
+      "lng": 1.8331037,
+      "desc": [
+        "Pog symbole de la résistance cathare, montée à pied d'environ 30 minutes",
+        "Panorama saisissant sur les Pyrénées",
+        "Petit musée archéologique dans le village au pied du mont"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-10",
+      "title": "10 - Peyrepertuse (châteaux cathares)",
+      "lat": 42.8708334,
+      "lng": 2.5556404,
+      "desc": [
+        "Colossal, véritable vaisseau de pierre de la taille de la Cité de Carcassonne",
+        "Murailles qui semblent fusionner avec la montagne"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-11",
+      "title": "11 - Vignoble Corbières",
+      "lat": 43.14841,
+      "lng": 2.7891982,
+      "desc": [
+        "Superbes paysages du Vignoble des Corbières",
+        "Dégustation de vins d'AOC Corbières chez un vigneron local"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cathares-12",
+      "title": "12 - Le Perthus / La Jonquera",
+      "lat": 42.4582238,
+      "lng": 2.858089,
+      "desc": [
+        "Frontière espagnole, transition entre garrigue audoise et contreforts des Albères",
+        "Fort de Bellegarde dominant le col du Perthus, histoire frontalière de la Catalogne"
+      ],
+      "img": null,
+      "isCustom": true
+    }
+  ],
+  "savedAt": "2026-07-17T00:00:00.000Z"
+}
