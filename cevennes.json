@@ -1,0 +1,136 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "cevennes",
+  "savedSpotIds": [
+    "cevennes-1",
+    "cevennes-2",
+    "cevennes-3",
+    "cevennes-4",
+    "cevennes-5",
+    "cevennes-6",
+    "cevennes-7",
+    "cevennes-8",
+    "cevennes-9"
+  ],
+  "customSpots": [
+    {
+      "id": "cevennes-1",
+      "title": "1 - Rodez, Musée Soulages",
+      "lat": 44.3522458,
+      "lng": 2.567738,
+      "desc": [
+        "Musée Soulages, mondialement connu pour les œuvres \"Outrenoir\"",
+        "Flânerie dans le centre historique de Rodez",
+        "Cathédrale Notre-Dame en grès rose et ruelles médiévales"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-2",
+      "title": "2 - Viaduc de Millau",
+      "lat": 44.0953503,
+      "lng": 3.0228128,
+      "desc": [
+        "Viaduc de Millau, chef-d'œuvre conçu par Michel Virlogeux et Norman Foster",
+        "Belvédère de l'Aire du Viaduc de Millau (accessible par la D911) pour la photo parfaite",
+        "Visite du village troglodytique de Peyre"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-3",
+      "title": "3 - La Couvertoirade, cité des Templiers",
+      "lat": 43.9127975,
+      "lng": 3.3167577,
+      "desc": [
+        "Un des \"Plus Beaux Villages de France\", au milieu du plateau du Larzac",
+        "Tour des remparts fortifiés construits par les Templiers et les Hospitaliers"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-4",
+      "title": "4 - Anduze, la porte des Cévennes",
+      "lat": 44.0711222,
+      "lng": 3.9812833,
+      "desc": [
+        "La Bambouseraie en Cévennes, jardin exotique unique en Europe",
+        "Tour à bord du Train à Vapeur des Cévennes",
+        "Journée bucolique rythmée par la nature et le patrimoine industriel"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-5",
+      "title": "5 - Cirque de Navacelles",
+      "lat": 43.8999012,
+      "lng": 3.5146425,
+      "desc": [
+        "Gigantesque méandre abandonné par la Vis, canyon de 300 m de profondeur",
+        "Vue imprenable depuis le belvédère de Blandas",
+        "Descente pédestre vers le hameau caché au fond du cirque"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-6",
+      "title": "6 - Mont Aigoual, toit du Gard",
+      "lat": 44.1211761,
+      "lng": 3.5818117,
+      "desc": [
+        "Ascension du Mont Aigoual (1 567 m), vue sur la Méditerranée et les Alpes par temps clair",
+        "Le Climatographe, observatoire météorologique au sommet",
+        "Espace muséographique interactif dédié au climat et à la météo"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-7",
+      "title": "7 - Abîme de Bramabiau",
+      "lat": 44.1223378,
+      "lng": 3.4806810,
+      "desc": [
+        "La rivière du Bonheur s'engouffre sous le plateau calcaire de Camprieu",
+        "Cascade fracassante sous un immense porche rocheux",
+        "Visite guidée à l'intérieur du canyon souterrain"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-8",
+      "title": "8 - Barre-des-Cévennes",
+      "lat": 44.2412892,
+      "lng": 3.6556545,
+      "desc": [
+        "Village sentinelle des Cévennes perché sur une crête",
+        "Haut lieu de l'histoire des Camisards (protestants cévenols)",
+        "Sentier de randonnée vers le \"Castelas\" pour un panorama exceptionnel"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "cevennes-9",
+      "title": "9 - Sur les terres de la bête du Gévaudan",
+      "lat": 44.6074277,
+      "lng": 3.2815711,
+      "desc": [
+        "Paysages de la Margeride jusqu'à Marvejols",
+        "Parc des Loups du Gévaudan à Sainte-Lucie : meutes de loups en semi-liberté",
+        "Histoire de la célèbre \"Bête du Gévaudan\""
+      ],
+      "img": null,
+      "isCustom": true
+    }
+  ],
+  "savedAt": "2026-07-17T00:00:00.000Z"
+}
