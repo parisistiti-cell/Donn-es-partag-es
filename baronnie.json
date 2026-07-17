@@ -1,0 +1,144 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "Baronnie",
+  "savedSpotIds": [
+    "baronnie-1",
+    "baronnie-2",
+    "baronnie-3",
+    "baronnie-4",
+    "baronnie-5",
+    "baronnie-6",
+    "baronnie-7",
+    "baronnie-8",
+    "baronnie-9",
+    "baronnie-9bis"
+  ],
+  "customSpots": [
+    {
+      "id": "baronnie-1",
+      "title": "1 - Sault",
+      "lat": 44.0929452,
+      "lng": 5.4082977,
+      "desc": [
+        "Capitale de la lavande, \"Chemin des Lavandes\" et centre historique médiéval",
+        "Nougat traditionnel et distilleries de lavande locales"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-2",
+      "title": "2 - Mont Serein / Mont Ventoux",
+      "lat": 44.1831575,
+      "lng": 5.262773,
+      "desc": [
+        "Ascension du mythique Mont Ventoux (1 910 m) par la route panoramique de Sault",
+        "Pause au Mont Serein sur le versant nord pour randonnées ou plein air",
+        "Panorama à 360° depuis le sommet pelé du Ventoux"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-3",
+      "title": "3 - Brantes",
+      "lat": 44.193209,
+      "lng": 5.333613,
+      "desc": [
+        "Village de caractère agrippé à la montagne, face à la paroi nord du Ventoux, vallée du Toulourenc",
+        "Ateliers d'artisans d'art dans les ruelles pavées"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-4",
+      "title": "4 - Nyons",
+      "lat": 44.3607035,
+      "lng": 5.1404955,
+      "desc": [
+        "Ville réputée pour son microclimat doux et ses olives AOC",
+        "Pont Roman du XIVe siècle sur l'Eygues, place des Arcades"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-5",
+      "title": "5 - Vaison-la-Romaine",
+      "lat": 44.2421933,
+      "lng": 5.0735791,
+      "desc": [
+        "Quartiers gallo-romains à ciel ouvert, pont romain, haute ville médiévale",
+        "Mosaïques antiques du site de Puymin"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-6",
+      "title": "6 - Ocres de Roussillon",
+      "lat": 43.9009165,
+      "lng": 5.2959089,
+      "desc": [
+        "Village flamboyant, façades colorées, falaises rouges et jaunes",
+        "Sentier des Ocres, mini-Colorado provençal"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-7",
+      "title": "7 - Gordes et abbaye",
+      "lat": 43.911315,
+      "lng": 5.200176,
+      "desc": [
+        "Village perché spectaculaire entièrement construit en pierres sèches",
+        "Point de vue classique sur Gordes depuis la route de Cavaillon"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-8",
+      "title": "8 - Abbaye Senanque",
+      "lat": 43.9279827,
+      "lng": 5.1867401,
+      "desc": [
+        "Abbaye de Sénanque blottie au creux de son vallon",
+        "Champs de lavande entourant l'abbaye (magnifiques en été)"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-9",
+      "title": "9 - Buis-les-Baronnies",
+      "lat": 44.2755869,
+      "lng": 5.2753851,
+      "desc": [
+        "Bourg d'origine médiévale ceinturé de falaises calcaires et champs de tilleuls",
+        "Place du marché aux arcades gothiques",
+        "Via Ferrata du Saint-Julien pour les plus sportifs"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "baronnie-9bis",
+      "title": "9 bis - Dentelles de Montmirail",
+      "lat": 44.179444,
+      "lng": 5.060556,
+      "desc": [
+        "Aiguilles de calcaire ciselées, randonnée ou balade à leur pied",
+        "Villages viticoles environnants : Gigondas, Vacqueyras, Beaumes-de-Venise",
+        "Pique-nique ou marche au coucher du soleil face aux crêtes rocheuses"
+      ],
+      "img": null,
+      "isCustom": true
+    }
+  ],
+  "savedAt": "2026-07-17T00:00:00.000Z"
+}
