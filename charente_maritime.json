@@ -1,0 +1,95 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "charente maritime",
+  "savedSpotIds": [
+    "charente-1",
+    "charente-2",
+    "charente-3",
+    "charente-4",
+    "charente-5",
+    "charente-6"
+  ],
+  "customSpots": [
+    {
+      "id": "charente-1",
+      "title": "1 - Fouras",
+      "lat": 45.9860221,
+      "lng": -1.0974684,
+      "desc": [
+        "Le Fort Vauban, panorama sur l'océan, les parcs à huîtres et les îles environnantes",
+        "Grande Plage et plage de l'Espérance",
+        "Dégustation d'huîtres fraîches au port de la Fumée"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "charente-2",
+      "title": "2 - Rochefort (corderie, musée marine etc)",
+      "lat": 45.9393833,
+      "lng": -0.9557568,
+      "desc": [
+        "Ancienne cité-arsenal voulue par Colbert, le long du fleuve Charente",
+        "La Corderie Royale et le Musée national de la Marine",
+        "Emplacement d'attache de la frégate L'Hermione, Pont Transbordeur de Martrou"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "charente-3",
+      "title": "3 - Croisière Charente / Fort Boyard / Île d'Aix",
+      "lat": 45.9995289,
+      "lng": -1.2139238,
+      "desc": [
+        "Départ depuis Fouras (Pointe de la Fumée)",
+        "Croisière commentée au plus près de Fort Boyard",
+        "Escale sur l'Île d'Aix : dernière demeure de Napoléon Ier avant son exil"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "charente-4",
+      "title": "4 - Île d'Oléron",
+      "lat": 45.8859979,
+      "lng": -1.1947623,
+      "desc": [
+        "Le Château-d'Oléron et ses cabanes d'artistes colorées",
+        "Le Phare de Chassiron à la pointe nord",
+        "Plage de la Côte Sauvage et port de la Cotinière"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "charente-5",
+      "title": "5 - La Rochelle",
+      "lat": 46.1566225,
+      "lng": -1.1540431,
+      "desc": [
+        "Trois tours médiévales du Vieux-Port : tour de la Chaîne, tour Saint-Nicolas, tour de la Lanterne",
+        "Aquarium de La Rochelle, l'un des plus grands d'Europe",
+        "Shopping sous les arcades du centre historique, marché central"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "charente-6",
+      "title": "6 - Île de Ré",
+      "lat": 46.2066904,
+      "lng": -1.3668715,
+      "desc": [
+        "Maisons blanchies à la chaux, roses trémières, marais salants",
+        "Pistes cyclables entre vignes et marais",
+        "Saint-Martin-de-Ré, fortifications Vauban classées UNESCO"
+      ],
+      "img": null,
+      "isCustom": true
+    }
+  ],
+  "savedAt": "2026-07-17T00:00:00.000Z"
+}
