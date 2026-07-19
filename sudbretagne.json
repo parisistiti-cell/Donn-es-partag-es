@@ -14,6 +14,7 @@
     "sudbretagne-8",
     "sudbretagne-9",
     "sudbretagne-10"
+    "sudbretagne-11"
   ],
   "customSpots": [
     {
@@ -136,6 +137,18 @@
       "img": null,
       "isCustom": true
     }
-  ],
+    
+    {
+      "id": "sudbretagne-11",
+      "title": "11 - La Roche-Bernard",
+      "lat": 47.51743843145104,
+      "lng": -2.302923202514649,
+      "desc": [
+        "Petite Cité de Caractère. Flânerie sur son vieux port au bord de la Vilaine, puis montée dans le quartier historique pour admirer les anciens entrepôts de sel et d'impressionnants points de vue depuis le rocher."
+      ],
+      "img": null,
+      "isCustom": true
+    }
+  ], 
   "savedAt": "2026-07-19T00:00:00.000Z"
 }
