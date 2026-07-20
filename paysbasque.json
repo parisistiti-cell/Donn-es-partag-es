@@ -1,0 +1,181 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "paysbasque",
+  "savedSpotIds": [
+    "paysbasque-1",
+    "paysbasque-2",
+    "paysbasque-3",
+    "paysbasque-4",
+    "paysbasque-5",
+    "paysbasque-6",
+    "paysbasque-7",
+    "paysbasque-8",
+    "paysbasque-9",
+    "paysbasque-10",
+    "paysbasque-11",
+    "paysbasque-12",
+    "paysbasque-13"
+  ],
+  "customSpots": [
+    {
+      "id": "paysbasque-1",
+      "title": "1 - Bayonne",
+      "lat": 43.4933417,
+      "lng": -1.4746233,
+      "desc": [
+        "Cœur historique entre Nive et Adour, maisons à colombages colorées",
+        "Cathédrale Sainte-Marie et quartier du Petit Bayonne"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-2",
+      "title": "2 - Anglet",
+      "lat": 43.517097,
+      "lng": -1.529178,
+      "desc": [
+        "Grandes plages sauvages, spot de surf réputé",
+        "Longue promenade côtière entre Biarritz et Bayonne"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-3",
+      "title": "3 - Biarritz",
+      "lat": 43.4871335,
+      "lng": -1.5558089,
+      "desc": [
+        "Grande Plage et ambiance balnéaire chic",
+        "Rocher de la Vierge et Côte des Basques"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-4",
+      "title": "4 - Saint-Jean-de-Luz",
+      "lat": 43.3877567,
+      "lng": -1.6603943,
+      "desc": [
+        "Port de pêche traditionnel et jolie baie abritée",
+        "Maison Louis XIV et vieille ville pittoresque"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-5",
+      "title": "5 - Irun",
+      "lat": 43.3405412,
+      "lng": -1.7917441,
+      "desc": [
+        "Ville frontalière entre France et Espagne",
+        "Étape de transition vers le Pays basque espagnol"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-6",
+      "title": "6 - Saint-Sébastien",
+      "lat": 43.3186188,
+      "lng": -1.9860118,
+      "desc": [
+        "Plage de la Concha, l'une des plus belles baies urbaines d'Europe",
+        "Vieille ville (Parte Vieja) et dégustation de pintxos"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-7",
+      "title": "7 - Lekeitio",
+      "lat": 43.3638956,
+      "lng": -2.5048951,
+      "desc": [
+        "Petit port de pêche basque authentique",
+        "Plage familiale et îlot de San Nicolás accessible à marée basse"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-8",
+      "title": "8 - San Juan de Gaztelugatxe",
+      "lat": 43.447,
+      "lng": -2.785,
+      "desc": [
+        "Îlot rocheux relié par un pont et 241 marches, chapelle San Juan Bautista",
+        "Accès et parking : Auzoa 8, 48289 Lariz, Biscaye, Espagne",
+        "Réservation en ligne conseillée pour l'accès"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-9",
+      "title": "9 - Bermeo",
+      "lat": 43.4195146,
+      "lng": -2.7200782,
+      "desc": [
+        "Port de pêche animé, architecture basque typique autour du vieux port",
+        "Ambiance authentique et tranquille"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-10",
+      "title": "10 - Gernika (Guernica)",
+      "lat": 43.3132097,
+      "lng": -2.6796198,
+      "desc": [
+        "Maison des Assemblées (Casa de Juntas) et l'Arbre de Gernika, symbole basque",
+        "Histoire liée au tableau de Picasso \"Guernica\""
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-11",
+      "title": "11 - Bilbao, Guggenheim",
+      "lat": 43.2686712,
+      "lng": -2.9340118,
+      "desc": [
+        "Musée Guggenheim, architecture emblématique de titane de Frank Gehry",
+        "Ville dynamique le long du fleuve Nervión"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-12",
+      "title": "12 - Kortezubi, Bosque de Oma",
+      "lat": 43.3455787,
+      "lng": -2.6375588,
+      "desc": [
+        "Forêt peinte, œuvre d'art immersive sur les troncs d'arbres",
+        "Réservation gratuite conseillée, marche d'environ 2,8 km"
+      ],
+      "img": null,
+      "isCustom": true
+    },
+    {
+      "id": "paysbasque-13",
+      "title": "13 - Santander",
+      "lat": 43.4636346,
+      "lng": -3.8226402,
+      "desc": [
+        "Ville portuaire élégante de Cantabrie",
+        "Baie de Santander et plage d'El Sardinero"
+      ],
+      "img": null,
+      "isCustom": true
+    }
+  ],
+  "savedAt": "2026-07-20T00:00:00.000Z"
+}
