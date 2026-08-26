@@ -1,0 +1,151 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "Jura",
+  "savedSpotIds": [
+    "custom-1787749368835",
+    "barycentre-roadtrip",
+    "custom-1787749389491",
+    "custom-1787749417315",
+    "custom-1787749438347",
+    "custom-1787749471107",
+    "custom-1787749521011",
+    "gps-1787749717907",
+    "custom-1787749868291",
+    "custom-1787750060603"
+  ],
+  "customSpots": [
+    {
+      "id": "custom-1787749368835",
+      "title": "Lons-le-Saunier (39000)",
+      "lat": 46.6727037,
+      "lng": 5.5589973,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 46.679933255555554,
+      "lng": 5.839270466666666,
+      "desc": [
+        "Point central calculé automatiquement à partir des 9 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "custom-1787749389491",
+      "title": "Dole (39100)",
+      "lat": 47.0921047,
+      "lng": 5.4925463,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "custom-1787749417315",
+      "title": "Bienvenue sur le site naturel des Cascades du Hérisson (39130 Menétrux-en-Joux)",
+      "lat": 46.6144855,
+      "lng": 5.8477673,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "custom-1787749438347",
+      "title": "Genève",
+      "lat": 46.2017559,
+      "lng": 6.1466014,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "4C"
+    },
+    {
+      "id": "custom-1787749471107",
+      "title": "Baume-les-Messieurs",
+      "lat": 46.7085571,
+      "lng": 5.646694,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "5C"
+    },
+    {
+      "id": "custom-1787749521011",
+      "title": "Morbier (39400)",
+      "lat": 46.5363166,
+      "lng": 6.0169531,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "6C"
+    },
+    {
+      "id": "gps-1787749717907",
+      "title": "Bois d'Amont",
+      "lat": 46.537462,
+      "lng": 6.138289,
+      "desc": [
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 46.537462, 6.138289"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "7C"
+    },
+    {
+      "id": "custom-1787749868291",
+      "title": "Arbois (39600)",
+      "lat": 46.9032246,
+      "lng": 5.7727504,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "8C"
+    },
+    {
+      "id": "custom-1787750060603",
+      "title": "Andelot-en-Montagne (39110)",
+      "lat": 46.8527892,
+      "lng": 5.9328354,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "9C"
+    }
+  ],
+  "savedAt": "2026-08-26T13:14:56.176Z"
+}
