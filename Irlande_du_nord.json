@@ -1,0 +1,172 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "Irlande du nord",
+  "savedSpotIds": [
+    "gps-1787746002385",
+    "barycentre-roadtrip",
+    "gps-1787746307938",
+    "gps-1787746567938",
+    "gps-1787746704841",
+    "gps-1787746945970",
+    "gps-1787747034673",
+    "gps-1787747148442",
+    "custom-1787747334506",
+    "custom-1787747458434",
+    "gps-1787747830299"
+  ],
+  "customSpots": [
+    {
+      "id": "gps-1787746002385",
+      "title": "Dublin",
+      "lat": 53.349885,
+      "lng": -6.26019,
+      "desc": [
+        "The Spire, Temple Bar, Trinity Collège, Guinness Storehouse",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 53.349885, -6.260190"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 54.738413630000004,
+      "lng": -6.712163339999999,
+      "desc": [
+        "Point central calculé automatiquement à partir des 10 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "gps-1787746307938",
+      "title": "Belfast",
+      "lat": 54.605097,
+      "lng": -5.911632,
+      "desc": [
+        "Titanic, Botanic Gardens, Cathedral Quarter",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 54.605097, -5.911632"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "gps-1787746567938",
+      "title": "Derry/Londonderry",
+      "lat": 55.013113,
+      "lng": -7.314749,
+      "desc": [
+        "Balade sur les murailles de Derry, Du côté des nationalistes, Le Peace Bridge sous le soleil de Derry",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 55.013113, -7.314749"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "gps-1787746704841",
+      "title": "Coleraine",
+      "lat": 55.131004,
+      "lng": -6.663208,
+      "desc": [
+        "La Causeway Coast Way relie Ballycastle à Portstewart",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 55.131004, -6.663208"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "4C"
+    },
+    {
+      "id": "gps-1787746945970",
+      "title": "Chaussée des Géants",
+      "lat": 55.240076,
+      "lng": -6.511105,
+      "desc": [
+        "Colonnes de basalte jaillissant de la mer, dans un fameux site géologique, avec centre d'information moderne.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 55.240076, -6.511105"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "5C"
+    },
+    {
+      "id": "gps-1787747034673",
+      "title": "Bushmills",
+      "lat": 55.206108,
+      "lng": -6.523433,
+      "desc": [
+        "Old Bushmills Distillery",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 55.206108, -6.523433"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "6C"
+    },
+    {
+      "id": "gps-1787747148442",
+      "title": "Enniskillen",
+      "lat": 54.344751,
+      "lng": -7.638073,
+      "desc": [
+        "Enniskillen est la plus grande ville du comté de Fermanagh en Irlande du Nord",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 54.344751, -7.638073"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "7C"
+    },
+    {
+      "id": "custom-1787747334506",
+      "title": "Carrick-a-rede Rope Bridge (Ballintoy)",
+      "lat": 55.2395381,
+      "lng": -6.3324234,
+      "desc": [
+        "Catégorie : street",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "8C"
+    },
+    {
+      "id": "custom-1787747458434",
+      "title": "Dark Hedges Parking (BT53 8TU)",
+      "lat": 55.1381872,
+      "lng": -6.38385,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "9C"
+    },
+    {
+      "id": "gps-1787747830299",
+      "title": "Ballyconnell",
+      "lat": 54.116377,
+      "lng": -7.58297,
+      "desc": [
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 54.116377, -7.582970"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "10C"
+    }
+  ],
+  "savedAt": "2026-08-26T12:38:19.327Z"
+}
