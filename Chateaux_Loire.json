@@ -1,0 +1,95 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "Chateaux Loire",
+  "savedSpotIds": [
+    "lieux-06be2753-0fc2-4f04-8ac4-63ea481e421d",
+    "barycentre-roadtrip",
+    "custom-1787750443019",
+    "custom-1787750478323",
+    "custom-1787750524874",
+    "custom-1787750696281"
+  ],
+  "customSpots": [
+    {
+      "id": "lieux-06be2753-0fc2-4f04-8ac4-63ea481e421d",
+      "numero": 5,
+      "title": "Amboise",
+      "lat": 47.41005580853205,
+      "lng": 0.992116928100586,
+      "desc": [
+        "Château du Clos Lucé, dernière demeure de Léonard de Vinci."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isLieuxDB": true
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 47.48307052170641,
+      "lng": 1.2168795256201173,
+      "desc": [
+        "Point central calculé automatiquement à partir des 5 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "custom-1787750443019",
+      "title": "Blois - Chambord (41000 Blois)",
+      "lat": 47.585459,
+      "lng": 1.3232893,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "custom-1787750478323",
+      "title": "Château de Chaumont-sur-Loire (41150 Chaumont-sur-Loire)",
+      "lat": 47.479146,
+      "lng": 1.1815237,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "custom-1787750524874",
+      "title": "Château de Chambord (41250 Chambord)",
+      "lat": 47.6160697,
+      "lng": 1.5170502,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "custom-1787750696281",
+      "title": "Château de Chenonceau (37150 Chenonceaux)",
+      "lat": 47.3246221,
+      "lng": 1.0704175,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "4C"
+    }
+  ],
+  "savedAt": "2026-08-26T13:26:58.922Z"
+}
