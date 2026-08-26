@@ -1,0 +1,137 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "Pyrénées Orientales",
+  "savedSpotIds": [
+    "custom-1787748467930",
+    "barycentre-roadtrip",
+    "custom-1787748533259",
+    "lieux-f9a44471-1d08-4833-b510-6c41566185eb",
+    "custom-1787748708811",
+    "custom-1787748725522",
+    "custom-1787748740306",
+    "custom-1787748760395",
+    "custom-1787748833211"
+  ],
+  "customSpots": [
+    {
+      "id": "custom-1787748467930",
+      "title": "Maureillas-las-Illas (66480)",
+      "lat": 42.48966,
+      "lng": 2.8054056,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 42.5400846375,
+      "lng": 2.9361405375,
+      "desc": [
+        "Point central calculé automatiquement à partir des 8 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "custom-1787748533259",
+      "title": "Céret (66400)",
+      "lat": 42.485804,
+      "lng": 2.7488069,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "lieux-f9a44471-1d08-4833-b510-6c41566185eb",
+      "numero": 190,
+      "title": "RT Cathares 12 - Le Perthus / La Jonquera",
+      "lat": 42.4582238,
+      "lng": 2.858089,
+      "desc": [
+        "Frontière espagnole, transition entre garrigue audoise et contreforts des Albères. Fort de Bellegarde dominant le col du Perthus."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isLieuxDB": true
+    },
+    {
+      "id": "custom-1787748708811",
+      "title": "Collioure (66190)",
+      "lat": 42.52505,
+      "lng": 3.0831554,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "custom-1787748725522",
+      "title": "Port-Vendres (66660)",
+      "lat": 42.5204146,
+      "lng": 3.1056167,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "4C"
+    },
+    {
+      "id": "custom-1787748740306",
+      "title": "Phare du Cap Béar (66660 Port-Vendres)",
+      "lat": 42.5155726,
+      "lng": 3.1366946,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "5C"
+    },
+    {
+      "id": "custom-1787748760395",
+      "title": "Banyuls-sur-Mer (66650)",
+      "lat": 42.4794084,
+      "lng": 3.1275893,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "6C"
+    },
+    {
+      "id": "custom-1787748833211",
+      "title": "Cucugnan - chateau de queribus (11350 Cucugnan)",
+      "lat": 42.8465437,
+      "lng": 2.6237668,
+      "desc": [
+        "Catégorie : house",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "7C"
+    }
+  ],
+  "savedAt": "2026-08-26T12:55:44.007Z"
+}
