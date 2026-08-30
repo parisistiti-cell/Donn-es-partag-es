@@ -1,0 +1,343 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "ardeche2026",
+  "savedSpotIds": [
+    "ardeche26-1",
+    "ardeche26-2",
+    "ardeche26-3",
+    "ardeche26-4",
+    "ardeche26-5",
+    "ardeche26-6",
+    "ardeche26-7",
+    "ardeche26-8",
+    "ardeche26-9",
+    "ardeche26-10",
+    "ardeche26-11",
+    "ardeche26-12",
+    "barycentre-roadtrip",
+    "ardeche26-13",
+    "ardeche26-14",
+    "ardeche26-15",
+    "ardeche26-16",
+    "ardeche26-17",
+    "ardeche26-18",
+    "ardeche26-19",
+    "ardeche26-20",
+    "ardeche26-21",
+    "ardeche26-23",
+    "ardeche26-j24"
+  ],
+  "customSpots": [
+    {
+      "id": "ardeche26-1",
+      "title": "Aubenas, Château & Grand Marché",
+      "lat": 44.6208768,
+      "lng": 4.3907543,
+      "desc": [
+        "Grand Marché d'Aubenas le samedi matin",
+        "Visite du centre historique et du Château d'Aubenas l'après-midi"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/aub1.jpg",
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "ardeche26-2",
+      "title": "Vogüé, village & baignade dans l'Ardèche",
+      "lat": 44.551115,
+      "lng": 4.413293,
+      "desc": [
+        "Vogüé, classé Plus Beaux Villages de France",
+        "Visite du château + première baignade dans la rivière"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/vogue.jpg",
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "ardeche26-3",
+      "title": " Pont d'Arc & plages de Vallon-Pont-d'Arc",
+      "lat": 44.3820968,
+      "lng": 4.4162713,
+      "desc": [
+        "Plages au Pont-d'Arc"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/kayac1.jpg",
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "ardeche26-4",
+      "title": "Vallon-Pont-d'Arc, descente canoë des Gorges",
+      "lat": 44.4062465,
+      "lng": 4.3941697,
+      "desc": [
+        "🛶☀️ Descente en canoë de Vallon-Pont-d’Arc à Chames ",
+        "Baignade sous le Pont d'Arc",
+        "Marché nocturne de Vallon-Pont-d'Arc en soirée"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/kayac2.jpg",
+      "isCustom": true,
+      "numero": "4C"
+    },
+    {
+      "id": "ardeche26-5",
+      "title": " Vals-les-Bains, thermes & rivière Besorgues",
+      "lat": 44.6572451,
+      "lng": 4.3686163,
+      "desc": [
+        "Eaux thermales et parc de Vals-les-Bains",
+        "Promenade le long de la Besorgues",
+        "Marché nocturne de Ruoms en soirée (alternative)"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "5C"
+    },
+    {
+      "id": "ardeche26-6",
+      "title": " Aven d'Orgnac, grotte & Cité de la Préhistoire",
+      "lat": 44.305905,
+      "lng": 4.433171,
+      "desc": [
+        "Descente spectaculaire dans l'Aven d'Orgnac",
+        "Cité de la Préhistoire",
+        "Retour possible par Banne et ses ruines de château"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/orgnac.jpg",
+      "isCustom": true,
+      "numero": "6C"
+    },
+    {
+      "id": "ardeche26-7",
+      "title": " Cascade du Ray-Pic (+ Gerbier de Jonc)",
+      "lat": 44.792292,
+      "lng": 4.268282,
+      "desc": [
+        "Mont Gerbier de Jonc, source de la Loire (ascension facile)",
+        "Retour par la Cascade du Ray-Pic",
+        "Site naturel rafraîchissant"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gerbier.jpg",
+      "isCustom": true,
+      "numero": "7C"
+    },
+    {
+      "id": "ardeche26-8",
+      "title": "Joyeuse & Antraigues-sur-Volane",
+      "lat": 44.4797219,
+      "lng": 4.2381965,
+      "desc": [
+        "Matin : Antraigues-sur-Volane, village de Jean Ferrat",
+        "Après-midi : Joyeuse et son musée de la Châtaigne"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "8C"
+    },
+    {
+      "id": "ardeche26-9",
+      "title": "Vélorail de l'Ardèche, Boucieu-le-Roi",
+      "lat": 45.0344357,
+      "lng": 4.6782405,
+      "desc": [
+        "Vélorail de l'Ardèche à Boucieu-le-Roi",
+        "Alternative : Train de l'Ardèche (Le Mastrou)"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "9C"
+    },
+    {
+      "id": "ardeche26-10",
+      "title": " Saint-Sernin, dernière baignade",
+      "lat": 44.5730519,
+      "lng": 4.3916129,
+      "desc": [
+        "🏡 Les Terrasses des Vignes nous accueillent à Saint-Sernin, en Ardèche !",
+        "Achat de souvenirs (marrons glacés, vins)",
+        "Dernière baignade dans un lieu paisible avant le départ"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/ter2.jpg",
+      "isCustom": true,
+      "numero": "10C"
+    },
+    {
+      "id": "ardeche26-11",
+      "title": "Grotte Chauvet 2 - Ardèche",
+      "lat": 44.406273,
+      "lng": 4.431287,
+      "desc": [
+        "Réplique de la grotte ornée, peintures préhistoriques",
+        "Réservation anticipée conseillée"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/chau2.jpg",
+      "isCustom": true,
+      "numero": "11C"
+    },
+    {
+      "id": "ardeche26-12",
+      "title": "Les Vans",
+      "lat": 44.4049707,
+      "lng": 4.1310986,
+      "desc": [
+        "Village au cœur du Sud Ardèche",
+        "Marché provençal réputé le soir.",
+        "Proche du Bois de Païolive et de ses chaos rocheux"
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "12C"
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 44.57261715301301,
+      "lng": 4.351307536602325,
+      "desc": [
+        "Point central calculé automatiquement à partir des 22 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "ardeche26-13",
+      "title": "Saint Sernin ",
+      "lat": 44.565474,
+      "lng": 4.393592,
+      "desc": [
+        "🏡 Les Terrasses des Vignes nous accueillent à Saint-Sernin, en Ardèche !"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/terrasse.jpg",
+      "isCustom": true,
+      "numero": "13C"
+    },
+    {
+      "id": "ardeche26-14",
+      "title": "Naves (07140 Les Vans)",
+      "lat": 44.3991449,
+      "lng": 4.1140377,
+      "desc": [
+        "Village perché au dessus des Vans"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/nav2.jpg",
+      "isCustom": true,
+      "numero": "14C"
+    },
+    {
+      "id": "ardeche26-15",
+      "title": "Largentière (07110)",
+      "lat": 44.5425207,
+      "lng": 4.2930748,
+      "desc": [
+        "La plus petite sous préfecture de France."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/argen.jpg",
+      "isCustom": true,
+      "numero": "15C"
+    },
+    {
+      "id": "ardeche26-16",
+      "title": "Lussas (07170)",
+      "lat": 44.6115726,
+      "lng": 4.4731255,
+      "desc": [
+        "Belle randonnée dans les gorges de la Louyre."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/louy2.jpg",
+      "isCustom": true,
+      "numero": "16C"
+    },
+    {
+      "id": "ardeche26-17",
+      "title": "Balazuc (07120)",
+      "lat": 44.5090727,
+      "lng": 4.3729828,
+      "desc": [
+        "Magnifique village"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/balaz.jpg",
+      "isCustom": true,
+      "numero": "17C"
+    },
+    {
+      "id": "ardeche26-18",
+      "title": "Lagorce (07150)",
+      "lat": 44.4479967,
+      "lng": 4.4173801,
+      "desc": [
+        "La magnanerie. Musée vivant du ver à soie."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/lagorc1.jpg",
+      "isCustom": true,
+      "numero": "18C"
+    },
+    {
+      "id": "ardeche26-19",
+      "title": "Source de la Loire",
+      "lat": 44.837605,
+      "lng": 4.221625,
+      "desc": [
+        "La source véritable! (à 1020 km de Saint Nazaire.)"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/loire.jpg",
+      "isCustom": true,
+      "numero": "19C"
+    },
+    {
+      "id": "ardeche26-20",
+      "title": "Vallon pont d'Arc",
+      "lat": 44.629512,
+      "lng": 4.240551,
+      "desc": [
+        "Lieu emblématique au dessus de l'Ardèche."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/cret1.jpg",
+      "isCustom": true,
+      "numero": "20C"
+    },
+    {
+      "id": "ardeche26-21",
+      "title": "Oppidum de Jastres-Sud (07200 Aubenas)",
+      "lat": 44.6019444,
+      "lng": 4.4269444,
+      "desc": [
+        "Bon spot pour observer l'éclipse de 12 Août 2026, mais nuages!"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/ecli.jpg",
+      "isCustom": true,
+      "numero": "21C"
+    },
+    {
+      "id": "ardeche26-23",
+      "numero": 132,
+      "title": "Mont Gerbier de Jonc (07310)",
+      "lat": 44.83850396628617,
+      "lng": 4.22045940525115,
+      "desc": [
+        "Le mont , belle escalade."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gerbier.jpg",
+      "isCustom": true,
+      "isLieuxDB": true
+    },
+    {
+      "id": "ardeche26-j24",
+      "title": "Jaujac",
+      "lat": 44.629512,
+      "lng": 4.240551,
+      "desc": [
+        "🥾 Belle rando à Jaujac, entre nature et patrimoine 🌿",
+        "🌉 Découverte du magnifique pont romain au fil du chemin"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/jaujac.jpg",
+      "isCustom": true,
+      "numero": "24C"
+    }
+  ],
+  "savedAt": "2026-08-30T04:29:47.892Z"
+}
