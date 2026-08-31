@@ -551,8 +551,8 @@
     {
       "id": "Focus",
       "title": "Abri",
-      "lat": 45.210283,
-      "lng": null,
+      "lat": 45.054621,
+      "lng": 1.168091,
       "desc": [
         "Ford Focus TDDi 1999.",
         "https://parisistiti-cell.github.io/cryptage-textes/voit"
@@ -563,9 +563,9 @@
     },
     {
       "id": "Ford",
-      "title": "Refuge",
+      "title": "Le point",
       "lat": 45.169724,
-      "lng": null,
+      "lng": 0.821314,
       "desc": [
         "Ford Focus TDDi 1999.Le point.",
         "https://parisistiti-cell.github.io/cryptage-textes/voit"
@@ -575,7 +575,7 @@
       "numero": "38C"
     },
     {
-      "id": "barycentre-j39",
+      "id": "Santé",
       "title": "ford focus",
       "lat": 45.252655,
       "lng": 0.660038,
