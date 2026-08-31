@@ -42,7 +42,7 @@
     "gps-1787841237709",
     "Focus",
     "Ford",
-    "Santé"
+    "Sante"
   ],
   "customSpots": [
     {
@@ -575,7 +575,7 @@
       "numero": "38C"
     },
     {
-      "id": "Santé",
+      "id": "Sante",
       "title": "ford focus",
       "lat": 45.252655,
       "lng": 0.660038,
