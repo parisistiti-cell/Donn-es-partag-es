@@ -1,0 +1,592 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "15 mois",
+  "savedSpotIds": [
+    "barycentre-roadtrip",
+    "gps-1787832588383",
+    "gps-1787833177945",
+    "gps-1787833750578",
+    "gps-1787834022615",
+    "gps-1787834369041",
+    "gps-1787834705369",
+    "gps-1787834914535",
+    "gps-1787835250182",
+    "gps-1787835485229",
+    "gps-1787835795849",
+    "gps-1787835966379",
+    "gps-1787836175051",
+    "gps-1787836382629",
+    "gps-1787836570952",
+    "gps-1787836770201",
+    "gps-1787836981700",
+    "gps-1787837153608",
+    "gps-1787837323179",
+    "gps-1787837502862",
+    "gps-1787837709995",
+    "gps-1787837988268",
+    "gps-1787838286878",
+    "gps-1787838470043",
+    "gps-1787838647919",
+    "gps-1787838818526",
+    "gps-1787838943227",
+    "gps-1787839117137",
+    "gps-1787839369308",
+    "gps-1787839585569",
+    "gps-1787839877645",
+    "gps-1787840027971",
+    "gps-1787840208840",
+    "gps-1787840610469",
+    "gps-1787840885273",
+    "gps-1787841237709",
+    "Focus",
+    "Ford",
+    "barycentre-j39"
+  ],
+  "customSpots": [
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 45.12016031428572,
+      "lng": 0.696075457142857,
+      "desc": [
+        "Point central calculé automatiquement à partir des 35 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": null,
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "gps-1787832588383",
+      "title": "Saint Martin de Ré",
+      "lat": 46.201934,
+      "lng": -1.367283,
+      "desc": [
+        "Sur l'île de Ré, ma belle adorée...",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 46.201934, -1.367283"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/01.jpg",
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "gps-1787833177945",
+      "title": "Azerat",
+      "lat": 45.176879,
+      "lng": 1.112049,
+      "desc": [
+        "Moulin de Douime.\nPique nique...",
+        "https://parisistiti-cell.github.io/cryptage-textes/aze",
+        "Coordonnées : 45.176879, 1.112049"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/02.jpg",
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "gps-1787833750578",
+      "title": "Grand-Brassac",
+      "lat": 45.302094,
+      "lng": 0.536404,
+      "desc": [
+        "Moulin de Rochereuil.\nUn film.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.302094, 0.536404"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/03.jpg",
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "gps-1787834022615",
+      "title": "Le Porge océan",
+      "lat": 44.89407,
+      "lng": -1.217605,
+      "desc": [
+        "Après-midi à la plage.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.894070, -1.217605"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/04.jpg",
+      "isCustom": true,
+      "numero": "4C"
+    },
+    {
+      "id": "gps-1787834369041",
+      "title": "Les Eyzies de Tayac",
+      "lat": 44.95054,
+      "lng": 1.018016,
+      "desc": [
+        "Rencontre(s) des Eyzies.\nPip.",
+        "https://parisistiti-cell.github.io/cryptage-textes/fois",
+        "Coordonnées : 44.950540, 1.018016"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/05.jpg",
+      "isCustom": true,
+      "numero": "5C"
+    },
+    {
+      "id": "gps-1787834705369",
+      "title": "Saint geniès",
+      "lat": 44.99743,
+      "lng": 1.22048,
+      "desc": [
+        "Lavoir sur la Beune.\nProche domaine Pelvézy.\nUn bain de pied.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.997430, 1.220480"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/06.jpg",
+      "isCustom": true,
+      "numero": "6C"
+    },
+    {
+      "id": "gps-1787834914535",
+      "title": "Périgueux",
+      "lat": 45.196315,
+      "lng": 0.719554,
+      "desc": [
+        "La Grenadières. \nde l'EN à l'IUFM souvenirs.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.196315, 0.719554"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/07.jpg",
+      "isCustom": true,
+      "numero": "7C"
+    },
+    {
+      "id": "gps-1787835250182",
+      "title": "Coly Saint Amand",
+      "lat": 45.039423,
+      "lng": 1.233054,
+      "desc": [
+        "Leymarie.\nFord Focus. Beaucoup de temps passé.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.039423, 1.233054"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/08.jpg",
+      "isCustom": true,
+      "numero": "8C"
+    },
+    {
+      "id": "gps-1787835485229",
+      "title": "Manaurie",
+      "lat": 44.959522,
+      "lng": 0.989773,
+      "desc": [
+        "Moments partagés pour un film.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.959522, 0.989773"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/09.jpg",
+      "isCustom": true,
+      "numero": "9C"
+    },
+    {
+      "id": "gps-1787835795849",
+      "title": "Lembras",
+      "lat": 44.884014,
+      "lng": 0.525037,
+      "desc": [
+        "Moments partagés pour un film.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.884014, 0.525037"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/10.jpg",
+      "isCustom": true,
+      "numero": "10C"
+    },
+    {
+      "id": "gps-1787835966379",
+      "title": "Rouffignac",
+      "lat": 45.0496,
+      "lng": 0.975428,
+      "desc": [
+        "Moments partagés pour assistance informatique.",
+        "https://parisistiti-cell.github.io/cryptage-textes/rouf",
+        "Coordonnées : 45.049600, 0.975428"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/11.jpg",
+      "isCustom": true,
+      "numero": "11C"
+    },
+    {
+      "id": "gps-1787836175051",
+      "title": "Excideuil",
+      "lat": 45.33953,
+      "lng": 1.046362,
+      "desc": [
+        "Moments partagés variés.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.339530, 1.046362"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/12.jpg",
+      "isCustom": true,
+      "numero": "12C"
+    },
+    {
+      "id": "gps-1787836382629",
+      "title": "Montanceix",
+      "lat": 45.15086,
+      "lng": 0.571311,
+      "desc": [
+        "Moments partagés pour assistance informatique.",
+        "https://parisistiti-cell.github.io/cryptage-textes/mont",
+        "Coordonnées : 45.150860, 0.571311"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/13.jpg",
+      "isCustom": true,
+      "numero": "13C"
+    },
+    {
+      "id": "gps-1787836570952",
+      "title": "Cubjac",
+      "lat": 45.220947,
+      "lng": 0.937158,
+      "desc": [
+        "Promenade au bord de l'eau.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.220947, 0.937158"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/14.jpg",
+      "isCustom": true,
+      "numero": "14C"
+    },
+    {
+      "id": "gps-1787836770201",
+      "title": "Champcevinel",
+      "lat": 45.21131,
+      "lng": 0.718017,
+      "desc": [
+        "Pause repas.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.211310, 0.718017"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/15.jpg",
+      "isCustom": true,
+      "numero": "15C"
+    },
+    {
+      "id": "gps-1787836981700",
+      "title": "Pressignac",
+      "lat": 44.893397,
+      "lng": 0.722737,
+      "desc": [
+        "Moments partagés pour un film.\nChamps de kiwis.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.893397, 0.722737"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/16.jpg",
+      "isCustom": true,
+      "numero": "16C"
+    },
+    {
+      "id": "gps-1787837153608",
+      "title": "Saint Geniès",
+      "lat": 44.99177,
+      "lng": 1.218925,
+      "desc": [
+        "Promenade vallée des Beunes.\nDomaine de Pelvézy.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.991770, 1.218925"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/17.jpg",
+      "isCustom": true,
+      "numero": "17C"
+    },
+    {
+      "id": "gps-1787837323179",
+      "title": "Coly Saint Amand",
+      "lat": 45.039374,
+      "lng": 1.233146,
+      "desc": [
+        "Leymarie.\nRefuge.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.039374, 1.233146"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/18.jpg",
+      "isCustom": true,
+      "numero": "18C"
+    },
+    {
+      "id": "gps-1787837502862",
+      "title": "Audrix",
+      "lat": 44.89106,
+      "lng": 0.935485,
+      "desc": [
+        "Gouffre de Proumeyssac.\nMoments partagés pour un film.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.891060, 0.935485"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/19.jpg",
+      "isCustom": true,
+      "numero": "19C"
+    },
+    {
+      "id": "gps-1787837709995",
+      "title": "Pessac",
+      "lat": 44.805675,
+      "lng": -0.631022,
+      "desc": [
+        "Cinéma Jean Eustache.\nMulholland drive.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.805675, -0.631022"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/20.jpg",
+      "isCustom": true,
+      "numero": "20C"
+    },
+    {
+      "id": "gps-1787837988268",
+      "title": "Saint martial d'albarède",
+      "lat": 45.318667,
+      "lng": 1.023391,
+      "desc": [
+        "Hors du temps.\nBoules de foin.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.318667, 1.023391"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/21.jpg",
+      "isCustom": true,
+      "numero": "21C"
+    },
+    {
+      "id": "gps-1787838286878",
+      "title": "Manzac sur Vern",
+      "lat": 45.087301,
+      "lng": 0.596893,
+      "desc": [
+        "Château de Lezarnie.\nDécouverte et visite.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.087301, 0.596893"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/22.jpg",
+      "isCustom": true,
+      "numero": "22C"
+    },
+    {
+      "id": "gps-1787838470043",
+      "title": "Saint Raphael",
+      "lat": 45.306927,
+      "lng": 1.077765,
+      "desc": [
+        "Promenade, pause.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.306927, 1.077765"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/23.jpg",
+      "isCustom": true,
+      "numero": "23C"
+    },
+    {
+      "id": "gps-1787838647919",
+      "title": "Bardenat",
+      "lat": 44.946075,
+      "lng": 1.094964,
+      "desc": [
+        "Pause en face de Commarque.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.946075, 1.094964"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/24.jpg",
+      "isCustom": true,
+      "numero": "24C"
+    },
+    {
+      "id": "gps-1787838818526",
+      "title": "Ligueux",
+      "lat": 45.307791,
+      "lng": 0.819356,
+      "desc": [
+        "Moments partagés pour un film.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.307791, 0.819356"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/25.jpg",
+      "isCustom": true,
+      "numero": "25C"
+    },
+    {
+      "id": "gps-1787838943227",
+      "title": "Boulazac",
+      "lat": 45.187224,
+      "lng": 0.740966,
+      "desc": [
+        "Pause repas.\nBarnabé.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.187224, 0.740966"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/26.jpg",
+      "isCustom": true,
+      "numero": "26C"
+    },
+    {
+      "id": "gps-1787839117137",
+      "title": "Coulaure",
+      "lat": 45.303629,
+      "lng": 0.931424,
+      "desc": [
+        "LAST",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.303629, 0.931424"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/27.jpg",
+      "isCustom": true,
+      "numero": "27C"
+    },
+    {
+      "id": "gps-1787839369308",
+      "title": "Périgueux",
+      "lat": 45.194423,
+      "lng": 0.71925,
+      "desc": [
+        "CDDP, SCEREN,CANOPE\nSouvenirs.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.194423, 0.719250"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/28.jpg",
+      "isCustom": true,
+      "numero": "28C"
+    },
+    {
+      "id": "gps-1787839585569",
+      "title": "Coulounieix",
+      "lat": 45.157863,
+      "lng": 0.687665,
+      "desc": [
+        "Pot et une bière!",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.157863, 0.687665"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/29.jpg",
+      "isCustom": true,
+      "numero": "29C"
+    },
+    {
+      "id": "gps-1787839877645",
+      "title": "Couze et  Saint Front",
+      "lat": 44.829928,
+      "lng": 0.702074,
+      "desc": [
+        "Moments partagés au moulin .\nPapier.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.829928, 0.702074"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/30.jpg",
+      "isCustom": true,
+      "numero": "30C"
+    },
+    {
+      "id": "gps-1787840027971",
+      "title": "Neuvic sur l'Isle",
+      "lat": 45.100624,
+      "lng": 0.472873,
+      "desc": [
+        "Viste et plantations urbaines.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.100624, 0.472873"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/31.jpg",
+      "isCustom": true,
+      "numero": "31C"
+    },
+    {
+      "id": "gps-1787840208840",
+      "title": "Campsegret",
+      "lat": 44.940456,
+      "lng": 0.566397,
+      "desc": [
+        "Source de l'Auvergnat.\nPause repas.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 44.940456, 0.566397"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/32.jpg",
+      "isCustom": true,
+      "numero": "32C"
+    },
+    {
+      "id": "gps-1787840610469",
+      "title": "Saint Astier",
+      "lat": 45.145041,
+      "lng": 0.526823,
+      "desc": [
+        "La Fabrique.\nCaptations.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.145041, 0.526823"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/33.jpg",
+      "isCustom": true,
+      "numero": "33C"
+    },
+    {
+      "id": "gps-1787840885273",
+      "title": "Chalagnac",
+      "lat": 45.094837,
+      "lng": 0.693641,
+      "desc": [
+        "Rossignol, souvenirs.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.094837, 0.693641"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/34.jpg",
+      "isCustom": true,
+      "numero": "34C"
+    },
+    {
+      "id": "gps-1787841237709",
+      "title": "Aubas",
+      "lat": 45.089081,
+      "lng": 1.212133,
+      "desc": [
+        "l'Escaleyrou.\nPause au point de vue.",
+        "Lieu enregistré manuellement depuis la carte.",
+        "Coordonnées : 45.089081, 1.212133"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/35.jpg",
+      "isCustom": true,
+      "numero": "35C"
+    },
+    {
+      "id": "Focus",
+      "title": "Abri",
+      "lat": 45.210283,
+      "lng": null,
+      "desc": [
+        "Ford Focus TDDi 1999.",
+        "https://parisistiti-cell.github.io/cryptage-textes/voit"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/voiture.jpg",
+      "isCustom": true,
+      "numero": "37C"
+    },
+    {
+      "id": "Ford",
+      "title": "Refuge",
+      "lat": 45.169724,
+      "lng": null,
+      "desc": [
+        "Ford Focus TDDi 1999.Le point.",
+        "https://parisistiti-cell.github.io/cryptage-textes/voit"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/voiture.jpg",
+      "isCustom": true,
+      "numero": "38C"
+    },
+    {
+      "id": "barycentre-j39",
+      "title": "ford focus",
+      "lat": 45.252655,
+      "lng": 0.660038,
+      "desc": [
+        "Ford Focus TDDi 1999. Sur la route...",
+        "https://parisistiti-cell.github.io/cryptage-textes/voit"
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/voiture.jpg",
+      "isCustom": true,
+      "numero": "39C"
+    }
+  ],
+  "savedAt": "2026-08-31T03:43:21.268Z"
+}
