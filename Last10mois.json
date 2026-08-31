@@ -2,7 +2,7 @@
   "app": "TP",
   "type": "roadtrip",
   "version": 1,
-  "nom": "15 mois",
+  "nom": "Last10mois",
   "savedSpotIds": [
     "barycentre-roadtrip",
     "gps-1787832588383",
