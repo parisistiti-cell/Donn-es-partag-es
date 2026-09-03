@@ -42,7 +42,7 @@
     "gps-1787841237709",
     "Focus",
     "Ford",
-    "Sante",
+    "Sante"
   ],
   "customSpots": [
     {
@@ -93,7 +93,7 @@
       "lng": 0.536404,
       "desc": [
         "Moulin de Rochereuil.\nUn film.",
-         "https://parisistiti-cell.github.io/cryptage-textes/moul",
+        "https://parisistiti-cell.github.io/cryptage-textes/moul",
         "Coordonnées : 45.302094, 0.536404"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/03.jpg",
@@ -302,7 +302,7 @@
       "lat": 45.039374,
       "lng": 1.233146,
       "desc": [
-        "Leymarie.\Refuge.",
+        "Leymarie.\nRefuge.",
         "https://parisistiti-cell.github.io/cryptage-textes/leym1",
         "https://parisistiti-cell.github.io/cryptage-textes/leym2",
         "Coordonnées : 45.039374, 1.233146"
@@ -415,7 +415,7 @@
       "lng": 0.740966,
       "desc": [
         "Pause repas.\nBarnabé.",
-         "https://parisistiti-cell.github.io/cryptage-textes/barna",
+        "https://parisistiti-cell.github.io/cryptage-textes/barna",
         "Coordonnées : 45.187224, 0.740966"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/26.jpg",
@@ -429,7 +429,7 @@
       "lng": 0.931424,
       "desc": [
         "LAST",
-         "https://parisistiti-cell.github.io/cryptage-textes/mauvaisouv",
+        "https://parisistiti-cell.github.io/cryptage-textes/mauvaisouv",
         "Coordonnées : 45.303629, 0.931424"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/27.jpg",
