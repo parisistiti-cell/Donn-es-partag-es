@@ -93,7 +93,7 @@
       "lng": 0.536404,
       "desc": [
         "Moulin de Rochereuil.\nUn film.",
-        "https://parisistiti-cell.github.io/cryptage-textes/moul",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=moubrashuil.png",
         "Coordonnées : 45.302094, 0.536404"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/03.jpg",
@@ -107,7 +107,7 @@
       "lng": -1.217605,
       "desc": [
         "Après-midi à la plage.",
-        "https://parisistiti-cell.github.io/cryptage-textes/porg",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=porg.png",
         "Coordonnées : 44.894070, -1.217605"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/04.jpg",
@@ -135,7 +135,7 @@
       "lng": 1.22048,
       "desc": [
         "Lavoir sur la Beune.\nProche domaine Pelvézy.\nUn bain de pied.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=pelv.png",
         "Coordonnées : 44.997430, 1.220480"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/06.jpg",
@@ -148,8 +148,8 @@
       "lat": 45.196315,
       "lng": 0.719554,
       "desc": [
-        "La Grenadières. \nde l'EN à l'IUFM souvenirs.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "La Grenadières. De l'EN à l'IUFM 38 ans de souvenirs.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=en.png",
         "Coordonnées : 45.196315, 0.719554"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/07.jpg",
@@ -162,8 +162,9 @@
       "lat": 45.039423,
       "lng": 1.233054,
       "desc": [
-        "Leymarie.\nFord Focus. Beaucoup de temps passé.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "Leymarie.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=leympisc.png",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=stamatpepi.png",
         "Coordonnées : 45.039423, 1.233054"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/08.jpg",
@@ -219,7 +220,7 @@
       "lng": 1.046362,
       "desc": [
         "Moments partagés variés.",
-        "https://parisistiti-cell.github.io/cryptage-textes/excid",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=exci.png",
         "Coordonnées : 45.339530, 1.046362"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/12.jpg",
@@ -233,7 +234,7 @@
       "lng": 0.571311,
       "desc": [
         "Moments partagés pour assistance informatique.",
-        "https://parisistiti-cell.github.io/cryptage-textes/mont",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=monta.png",
         "Coordonnées : 45.150860, 0.571311"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/13.jpg",
@@ -289,7 +290,7 @@
       "lng": 1.218925,
       "desc": [
         "Promenade vallée des Beunes.\nDomaine de Pelvézy.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=pelv.png",
         "Coordonnées : 44.991770, 1.218925"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/17.jpg",
@@ -303,8 +304,8 @@
       "lng": 1.233146,
       "desc": [
         "Leymarie.\nRefuge.",
-        "https://parisistiti-cell.github.io/cryptage-textes/leym1",
-        "https://parisistiti-cell.github.io/cryptage-textes/leym2",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=stamatpepi.png",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=leym1tun.png",
         "Coordonnées : 45.039374, 1.233146"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/18.jpg",
@@ -401,7 +402,7 @@
       "lng": 0.819356,
       "desc": [
         "Moments partagés pour un film.",
-        "https://parisistiti-cell.github.io/cryptage-textes/ligul",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=ligu.png",
         "Coordonnées : 45.307791, 0.819356"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/25.jpg",
@@ -443,7 +444,7 @@
       "lng": 0.71925,
       "desc": [
         "CDDP, SCEREN,CANOPE\nSouvenirs.",
-        "https://parisistiti-cell.github.io/cryptage-textes/cdd",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=cdd.png",
         "Coordonnées : 45.194423, 0.719250"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/28.jpg",
@@ -485,7 +486,7 @@
       "lng": 0.472873,
       "desc": [
         "Viste et plantations urbaines.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=neuv.png",
         "Coordonnées : 45.100624, 0.472873"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/31.jpg",
@@ -581,7 +582,7 @@
       "lng": 0.660038,
       "desc": [
         "Ford Focus TDDi 1999. Sur la route et un pot...",
-        "https://parisistiti-cell.github.io/cryptage-textes/voit"
+        "https://parisistiti-cell.github.io/stegano-web/?demo=lavo.png"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/voiture.jpg",
       "isCustom": true,
