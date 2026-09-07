@@ -52,9 +52,9 @@
       "lng": 0.696075457142857,
       "desc": [
         "Point central calculé automatiquement à partir des 35 lieux de ce road trip.",
-        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+        "https://parisistiti-cell.github.io/stegano-web/?demo=ford%20focus.png"
       ],
-      "img": null,
+      "img": https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/focus.jpg",
       "isCustom": true,
       "isBarycentre": true
     },
