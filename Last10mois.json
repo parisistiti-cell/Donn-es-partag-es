@@ -205,7 +205,7 @@
       "lng": 0.975428,
       "desc": [
         "Moments partagés pour assistance informatique.",
-        "https://parisistiti-cell.github.io/cryptage-textes/rouf",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=rouf.png",
         "Coordonnées : 45.049600, 0.975428"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/11.jpg",
@@ -261,7 +261,7 @@
       "lng": 0.718017,
       "desc": [
         "Pause repas.",
-        "https://parisistiti-cell.github.io/cryptage-textes/champ",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=champ.png",
         "Coordonnées : 45.211310, 0.718017"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/15.jpg",
@@ -332,7 +332,7 @@
       "lng": -0.631022,
       "desc": [
         "Cinéma Jean Eustache.\nMulholland drive.",
-        "https://parisistiti-cell.github.io/cryptage-textes/pessa",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=pessa.png",
         "Coordonnées : 44.805675, -0.631022"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/20.jpg",
@@ -346,7 +346,7 @@
       "lng": 1.023391,
       "desc": [
         "Hors du temps.\nBoules de foin.",
-        "https://parisistiti-cell.github.io/cryptage-textes/pre",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=pre.png",
         "Coordonnées : 45.318667, 1.023391"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/21.jpg",
@@ -360,7 +360,7 @@
       "lng": 0.596893,
       "desc": [
         "Château de Lezarnie.Découverte et visite.",
-        "https://parisistiti-cell.github.io/cryptage-textes/aze"
+        "https://parisistiti-cell.github.io/stegano-web/?demo=leza.png"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/22.jpg",
       "isCustom": true,
@@ -429,7 +429,7 @@
       "lng": 0.931424,
       "desc": [
         "LAST",
-        "https://parisistiti-cell.github.io/cryptage-textes/mauvaisouv",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=coul.png",
         "Coordonnées : 45.303629, 0.931424"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/27.jpg",
