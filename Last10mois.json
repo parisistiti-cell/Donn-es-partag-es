@@ -388,7 +388,7 @@
       "lng": 1.094964,
       "desc": [
         "Pause en face de Commarque.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=comma.png",
         "Coordonnées : 44.946075, 1.094964"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/24.jpg",
@@ -528,7 +528,7 @@
       "lng": 0.693641,
       "desc": [
         "Rossignol, souvenirs.",
-        "Lieu enregistré manuellement depuis la carte.",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=rossi.png",
         "Coordonnées : 45.094837, 0.693641"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/34.jpg",
@@ -589,5 +589,5 @@
       "numero": "39C"
     }
   ],
-  "savedAt": "2026-09-08T08:43:21.268Z"
+  "savedAt": "2026-09-08T18:43:21.268Z"
 }
