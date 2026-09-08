@@ -121,7 +121,7 @@
       "lng": 1.018016,
       "desc": [
         "Rencontre(s) des Eyzies.\nPip.",
-        "https://parisistiti-cell.github.io/cryptage-textes/fois",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=eyzie.png",
         "Coordonnées : 44.950540, 1.018016"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/05.jpg",
@@ -416,7 +416,7 @@
       "lng": 0.740966,
       "desc": [
         "Pause repas.\nBarnabé.",
-        "https://parisistiti-cell.github.io/cryptage-textes/barna",
+        "https://parisistiti-cell.github.io/stegano-web/?demo=barna.png",
         "Coordonnées : 45.187224, 0.740966"
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/26.jpg",
@@ -589,5 +589,5 @@
       "numero": "39C"
     }
   ],
-  "savedAt": "2026-08-31T03:43:21.268Z"
+  "savedAt": "2026-09-08T08:43:21.268Z"
 }
