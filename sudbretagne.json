@@ -26,7 +26,7 @@
         "Hameau de chaumières typiques sur le Sentier des Douaniers (GR34)",
         "Randonnée côtière au fil des kilomètres de côtes bretonnes"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/sendoua.jpg",
       "isCustom": true
     },
     {
@@ -38,7 +38,7 @@
         "Dunes et côtes de Trévignon, site Natura 2000",
         "Safari photo nature, spot d'ornithologie"
       ],
-      "img": null,
+     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/trevignon.jpg",
       "isCustom": true
     },
     {
@@ -50,7 +50,7 @@
         "Chemin des peintres, sur les pas des artistes de l'école de Pont-Aven",
         "Kilomètres de marche le long de la côte"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/poldu.jpg",
       "isCustom": true
     },
     {
@@ -62,7 +62,7 @@
         "Ville Close, remparts et port, ambiance de corsaires",
         "Ruelles fortifiées entourées d'eau"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/concorneau.jpg",
       "isCustom": true
     },
     {
@@ -74,7 +74,7 @@
         "Cité des peintres, Chapelle de Trémalo",
         "Dégustation du kouign-amann"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/pontaven.jpg",
       "isCustom": true
     },
     {
@@ -86,7 +86,7 @@
         "Cathédrale Saint-Corentin et maisons à colombages",
         "Meilleur kouign-amann de la ville, mission gourmandise"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/quimper.jpg",
       "isCustom": true
     },
     {
@@ -98,7 +98,7 @@
         "Étape sur le chemin du retour",
         "Cœur médiéval au confluent de l'Isole et de l'Ellé"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/quimperlet.jpg",
       "isCustom": true
     },
     {
@@ -110,7 +110,7 @@
         "Un des \"Plus Beaux Villages de France\"",
         "Ruelles pavées et maisons en granit du XVIIe siècle"
       ],
-      "img": null,
+     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/locronan.jpg",
       "isCustom": true
     },
     {
@@ -122,7 +122,7 @@
         "2 934 menhirs alignés, l'un des plus grands sites mégalithiques du monde",
         "Étape mystérieuse sur le chemin du retour"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/carnac.jpg",
       "isCustom": true
     },
     {
@@ -134,7 +134,7 @@
         "Ville aux influences italiennes, ruines du château",
         "Site du festival Hellfest"
       ],
-      "img": null,
+     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clisson.jpg",
       "isCustom": true
     },    
     {
@@ -145,9 +145,9 @@
       "desc": [
         "Petite Cité de Caractère. Flânerie sur son vieux port au bord de la Vilaine, puis montée dans le quartier historique pour admirer les anciens entrepôts de sel et d'impressionnants points de vue depuis le rocher."
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/rocheb.jpg",
       "isCustom": true
     }
   ], 
-  "savedAt": "2026-07-19T00:00:00.000Z"
+  "savedAt": "2026-09-27T00:00:00.000Z"
 }
