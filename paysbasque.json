@@ -28,7 +28,7 @@
         "Cœur historique entre Nive et Adour, maisons à colombages colorées",
         "Cathédrale Sainte-Marie et quartier du Petit Bayonne"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/bayo.jpg",
       "isCustom": true
     },
     {
@@ -40,7 +40,7 @@
         "Grandes plages sauvages, spot de surf réputé",
         "Longue promenade côtière entre Biarritz et Bayonne"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/anglet.jpg",
       "isCustom": true
     },
     {
@@ -52,7 +52,7 @@
         "Grande Plage et ambiance balnéaire chic",
         "Rocher de la Vierge et Côte des Basques"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/biari.jpg",
       "isCustom": true
     },
     {
@@ -64,7 +64,7 @@
         "Port de pêche traditionnel et jolie baie abritée",
         "Maison Louis XIV et vieille ville pittoresque"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/stjean.jpg",
       "isCustom": true
     },
     {
@@ -76,7 +76,7 @@
         "Ville frontalière entre France et Espagne",
         "Étape de transition vers le Pays basque espagnol"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/irun.jpg",
       "isCustom": true
     },
     {
@@ -88,7 +88,7 @@
         "Plage de la Concha, l'une des plus belles baies urbaines d'Europe",
         "Vieille ville (Parte Vieja) et dégustation de pintxos"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/donostia.jpg",
       "isCustom": true
     },
     {
@@ -100,7 +100,7 @@
         "Petit port de pêche basque authentique",
         "Plage familiale et îlot de San Nicolás accessible à marée basse"
       ],
-      "img": null,
+       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/leikeitio.jpg",
       "isCustom": true
     },
     {
@@ -113,7 +113,7 @@
         "Accès et parking : Auzoa 8, 48289 Lariz, Biscaye, Espagne",
         "Réservation en ligne conseillée pour l'accès"
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gazte.jpg",
       "isCustom": true
     },
     {
@@ -125,7 +125,7 @@
         "Port de pêche animé, architecture basque typique autour du vieux port",
         "Ambiance authentique et tranquille"
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/bermeo.jpg",
       "isCustom": true
     },
     {
@@ -137,7 +137,7 @@
         "Maison des Assemblées (Casa de Juntas) et l'Arbre de Gernika, symbole basque",
         "Histoire liée au tableau de Picasso \"Guernica\""
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/guerni.jpg",
       "isCustom": true
     },
     {
@@ -149,7 +149,7 @@
         "Musée Guggenheim, architecture emblématique de titane de Frank Gehry",
         "Ville dynamique le long du fleuve Nervión"
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/bilbao.jpg",
       "isCustom": true
     },
     {
@@ -161,7 +161,7 @@
         "Forêt peinte, œuvre d'art immersive sur les troncs d'arbres",
         "Réservation gratuite conseillée, marche d'environ 2,8 km"
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/oma.jpg",
       "isCustom": true
     },
     {
@@ -173,7 +173,7 @@
         "Ville portuaire élégante de Cantabrie",
         "Baie de Santander et plage d'El Sardinero"
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/santander.jpg",
       "isCustom": true
     }
   ],
