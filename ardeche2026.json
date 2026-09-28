@@ -16,7 +16,6 @@
     "ardeche26-10",
     "ardeche26-11",
     "ardeche26-12",
-    "barycentre-roadtrip",
     "ardeche26-13",
     "ardeche26-14",
     "ardeche26-15",
@@ -27,7 +26,8 @@
     "ardeche26-20",
     "ardeche26-21",
     "ardeche26-23",
-    "ardeche26-j24"
+    "ardeche26-j24",
+    "barycentre-roadtrip"
   ],
   "customSpots": [
     {
@@ -41,7 +41,7 @@
         "🌿 Explorez les paysages naturels et les villages de caractère aux alentours.",
         "🍷 Savourez les spécialités locales et l'art de vivre ardéchois."
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/aub1.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/aub1.jpg",
       "isCustom": true,
       "numero": "1C"
     },
@@ -57,7 +57,7 @@
         "☀️ Profitez d'un moment de détente entre patrimoine, nature et douceur de vivre.",
         "❤️ Laissez-vous charmer par Vogüé, l'une des plus belles destinations d'Ardèche ! #Vogüé #Ardèche #VillageDeCaractère #Tourisme"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/vogue.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/vogue.jpg",
       "isCustom": true,
       "numero": "2C"
     },
@@ -69,7 +69,7 @@
       "desc": [
         "Plages au Pont-d'Arc"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/kayac1.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/kayac1.jpg",
       "isCustom": true,
       "numero": "3C"
     },
@@ -83,7 +83,7 @@
         "Baignade sous le Pont d'Arc",
         "Marché nocturne de Vallon-Pont-d'Arc en soirée"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/kayac2.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/kayac2.jpg",
       "isCustom": true,
       "numero": "4C"
     },
@@ -113,7 +113,7 @@
         "😎 Soleil, fraîcheur, éclats de rire et souvenirs inoubliables.",
         "💙 Une journée sportive et rafraîchissante au cœur de l’Ardèche ! Retour possible par Banne et ses ruines de château"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/orgnac.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/orgnac.jpg",
       "isCustom": true,
       "numero": "6C"
     },
@@ -127,7 +127,7 @@
         "Retour par la Cascade du Ray-Pic",
         "Site naturel rafraîchissant"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gerbier.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/gerbier.jpg",
       "isCustom": true,
       "numero": "7C"
     },
@@ -167,7 +167,7 @@
         "Achat de souvenirs (marrons glacés, vins)",
         "Dernière baignade dans un lieu paisible avant le départ"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/ter2.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/ter2.jpg",
       "isCustom": true,
       "numero": "10C"
     },
@@ -180,7 +180,7 @@
         "Réplique de la grotte ornée, peintures préhistoriques",
         "Réservation anticipée conseillée"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/chau2.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chau2.jpg",
       "isCustom": true,
       "numero": "11C"
     },
@@ -199,19 +199,6 @@
       "numero": "12C"
     },
     {
-      "id": "barycentre-roadtrip",
-      "title": "🏠 Barycentre du road trip",
-      "lat": 44.57261715301301,
-      "lng": 4.351307536602325,
-      "desc": [
-        "Point central calculé automatiquement à partir des 22 lieux de ce road trip.",
-        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
-      ],
-      "img": "https://mes-bd.pages.dev/Ardeche-2026/images/00-couverture.jpg",
-      "isCustom": true,
-      "isBarycentre": true
-    },
-    {
       "id": "ardeche26-13",
       "title": "Saint Sernin ",
       "lat": 44.565474,
@@ -219,7 +206,7 @@
       "desc": [
         "🏡 Les Terrasses des Vignes nous accueillent à Saint-Sernin, en Ardèche !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/terrasse.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/terrasse.jpg",
       "isCustom": true,
       "numero": "13C"
     },
@@ -240,7 +227,7 @@
         "❤️ Laissez-vous séduire par le charme intemporel de Naves.",
         "✨ Cet été, faites une halte dans ce village d'exception et vivez une expérience inoubliable en Ardèche !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/nav2.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/nav2.jpg",
       "isCustom": true,
       "numero": "14C"
     },
@@ -257,7 +244,7 @@
         "🍃 Profitez des marchés, des terrasses et de la douceur de vivre ardéchoise.",
         "❤️ Une destination incontournable pour découvrir l'authenticité de l'Ardèche ! #Largentière #Ardèche #Patrimoine #VillageDeCaractère"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/argen.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/argen.jpg",
       "isCustom": true,
       "numero": "15C"
     },
@@ -280,7 +267,7 @@
         "😵‍💫 À éviter si vous avez le vertige",
         "✨ Une sortie qui se mérite, mais des souvenirs garantis !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/louy2.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/louy2.jpg",
       "isCustom": true,
       "numero": "16C"
     },
@@ -296,7 +283,7 @@
         "📸 Un village classé parmi les plus beaux de France, idéal pour des souvenirs inoubliables.",
         "☀️ Nature, patrimoine et détente vous attendent à chaque coin de rue."
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/balaz.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/balaz.jpg",
       "isCustom": true,
       "numero": "17C"
     },
@@ -312,7 +299,7 @@
         "📸 Une visite idéale pour petits et grands, au cœur d'un cadre exceptionnel.",
         "❤️ Venez vivre une expérience unique et partager un moment hors du temps à Lagorce !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/lagorc1.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/lagorc1.jpg",
       "isCustom": true,
       "numero": "18C"
     },
@@ -327,7 +314,7 @@
         "💧 À la découverte des premières sources de la Loire",
         "❤️ Une superbe journée au cœur de la nature ! (à 1020 km de Saint Nazaire.)"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/loire.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/loire.jpg",
       "isCustom": true,
       "numero": "19C"
     },
@@ -344,7 +331,7 @@
         "🏔️ Un trésor exceptionnel du patrimoine préhistorique en Ardèche.",
         "✨ Une visite magique pour découvrir les origines de l’art !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/cret1.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/cret1.jpg",
       "isCustom": true,
       "numero": "20C"
     },
@@ -360,7 +347,7 @@
         "🏛️ À l’oppidum de Jastres, au-dessus d’Aubenas, le public était au rendez-vous dans un cadre exceptionnel.",
         "✨ Une éclipse qui s’est terminée dans les nuages, mais qui restera un beau souvenir pour tous les observateurs !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/ecli.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/ecli.jpg",
       "isCustom": true,
       "numero": "21C"
     },
@@ -376,7 +363,7 @@
         "🌿 De magnifiques paysages volcaniques",
         "💪 Une montée sportive, mais quelle récompense au sommet !"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gerbier.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/gerbier.jpg",
       "isCustom": true,
       "isLieuxDB": true
     },
@@ -391,10 +378,22 @@
         "☀️ De beaux paysages, de l’air frais et un moment hors du temps",
         "📸 Une belle escapade à partager en Ardèche ! ❤️"
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/jaujac.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/jaujac.jpg",
       "isCustom": true,
       "numero": "24C"
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 0,
+      "lng": 0,
+      "desc": [
+        "https://mes-bd.pages.dev/Ardeche-2026/"
+      ],
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/Ardeche-2026/images/00-couverture.jpg",
+      "isCustom": true,
+      "isBarycentre": true
     }
   ],
-  "savedAt": "2026-09-27T17:29:47.892Z"
+  "savedAt": "2026-09-28T03:44:16.000Z"
 }
