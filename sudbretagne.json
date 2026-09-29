@@ -14,7 +14,8 @@
     "sudbretagne-8",
     "sudbretagne-9",
     "sudbretagne-10",
-    "sudbretagne-11"
+    "sudbretagne-11",
+    "barycentre-roadtrip"
   ],
   "customSpots": [
     {
@@ -38,7 +39,7 @@
         "Dunes et côtes de Trévignon, site Natura 2000",
         "Safari photo nature, spot d'ornithologie"
       ],
-     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/trevignon.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/trevignon.jpg",
       "isCustom": true
     },
     {
@@ -110,7 +111,7 @@
         "Un des \"Plus Beaux Villages de France\"",
         "Ruelles pavées et maisons en granit du XVIIe siècle"
       ],
-     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/locronan.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/locronan.jpg",
       "isCustom": true
     },
     {
@@ -134,9 +135,9 @@
         "Ville aux influences italiennes, ruines du château",
         "Site du festival Hellfest"
       ],
-     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clisson.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clisson.jpg",
       "isCustom": true
-    },    
+    },
     {
       "id": "sudbretagne-11",
       "title": "11 - La Roche-Bernard",
@@ -147,7 +148,20 @@
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/rocheb.jpg",
       "isCustom": true
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 47.75218439376828,
+      "lng": -3.4006743911376955,
+      "desc": [
+        "https://mes-bd.pages.dev/bre/",
+        "https://mes-bd.pages.dev/clis/"
+      ],
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/bre/images/00-couverture.jpg",
+      "isCustom": true,
+      "isBarycentre": true
     }
-  ], 
-  "savedAt": "2026-09-27T00:00:00.000Z"
+  ],
+  "savedAt": "2026-09-29T09:14:08.000Z"
 }
