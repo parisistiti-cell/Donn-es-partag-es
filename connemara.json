@@ -18,7 +18,6 @@
     "connemara-12",
     "connemara-13",
     "connemara-14"
-    "barycentre-roadtrip"
   ],
   "customSpots": [
     {
@@ -43,7 +42,7 @@
         "Randonnée dans le Connemara National Park",
         "Panorama à 360° sur les Twelve Bens et la côte atlantique"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/diamodhill.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/diamondhill.jpg",
       "isCustom": true
     },
     {
@@ -80,7 +79,7 @@
         "Traversée des paysages de lacs et tourbières du Connemara",
         "Arrêt photo dans la région de Recess"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/conemara.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/conemara.jpg",
       "isCustom": true
     },
     {
@@ -92,7 +91,7 @@
         "Ville animée, rues pavées et pubs traditionnels",
         "Point de départ pour les excursions vers les Aran Islands"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/galway.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/galway.jpg",
       "isCustom": true
     },
     {
@@ -117,7 +116,7 @@
         "Paysage lunaire de pavages calcaires uniques en Europe",
         "Flore rare et sites mégalithiques (dolmen de Poulnabrone à proximité)"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/burren.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/burren.jpg",
       "isCustom": true
     },
     {
@@ -153,7 +152,7 @@
         "Étape sur la route vers le sud, château du roi Jean",
         "Bord de la rivière Shannon"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/conemara.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/conemara.jpg",
       "isCustom": true
     },
     {
@@ -165,7 +164,7 @@
         "Point le plus au sud-ouest de l'Irlande, falaises spectaculaires",
         "Passerelle emblématique vers le phare et la station de signaux"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/mizen.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/mizen.jpg",
       "isCustom": true
     },
     {
@@ -177,7 +176,7 @@
         "Petit port pittoresque sur la baie de Bantry",
         "Bantry House à proximité"
       ],
-      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/bantry.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/bantry.jpg",
       "isCustom": true
     },
     {
@@ -192,19 +191,6 @@
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/cork.jpg",
       "isCustom": true
     }
-    {
-      "id": "barycentre-roadtrip",
-      "title": "ðŸ  Barycentre du road trip",
-      "lat": 43.3973841,
-      "lng": -2.3139664846153845,
-      "desc": [
-        "https://mes-bd.pages.dev/eusk/"
-      ],
-      "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/connemara/images/00-couverture.jpg",
-      "isCustom": true,
-      "isBarycentre": true
-    }
-
   ],
   "savedAt": "2026-09-29T17:00:00.000Z"
 }
