@@ -17,7 +17,8 @@
     "connemara-11",
     "connemara-12",
     "connemara-13",
-    "connemara-14"
+    "connemara-14",
+    "barycentre-roadtrip"
   ],
   "customSpots": [
     {
@@ -190,6 +191,18 @@
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/cork.jpg",
       "isCustom": true
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 52.89508584285714,
+      "lng": -9.4784557,
+      "desc": [
+        "https://mes-bd.pages.dev/irla/"
+      ],
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/irla/images/00-couverture.jpg",
+      "isCustom": true,
+      "isBarycentre": true
     }
   ],
   "savedAt": "2026-09-29T17:00:00.000Z"
