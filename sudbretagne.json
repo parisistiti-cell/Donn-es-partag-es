@@ -2,7 +2,7 @@
   "app": "TP",
   "type": "roadtrip",
   "version": 1,
-  "nom": "sudbretagne",
+  "nom": "sudbretagne1",
   "savedSpotIds": [
     "sudbretagne-1",
     "sudbretagne-2",
@@ -28,7 +28,8 @@
         "Randonnée côtière au fil des kilomètres de côtes bretonnes"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/sendoua.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "1C"
     },
     {
       "id": "sudbretagne-2",
@@ -40,7 +41,8 @@
         "Safari photo nature, spot d'ornithologie"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/trevignon.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "2C"
     },
     {
       "id": "sudbretagne-3",
@@ -52,7 +54,8 @@
         "Kilomètres de marche le long de la côte"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/poldu.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "3C"
     },
     {
       "id": "sudbretagne-4",
@@ -64,7 +67,8 @@
         "Ruelles fortifiées entourées d'eau"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/concorneau.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "4C"
     },
     {
       "id": "sudbretagne-5",
@@ -76,7 +80,8 @@
         "Dégustation du kouign-amann"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/pontaven.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "5C"
     },
     {
       "id": "sudbretagne-6",
@@ -88,7 +93,8 @@
         "Meilleur kouign-amann de la ville, mission gourmandise"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/quimper.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "6C"
     },
     {
       "id": "sudbretagne-7",
@@ -100,7 +106,8 @@
         "Cœur médiéval au confluent de l'Isole et de l'Ellé"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/quimperlet.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "7C"
     },
     {
       "id": "sudbretagne-8",
@@ -112,7 +119,8 @@
         "Ruelles pavées et maisons en granit du XVIIe siècle"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/locronan.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "8C"
     },
     {
       "id": "sudbretagne-9",
@@ -124,7 +132,8 @@
         "Étape mystérieuse sur le chemin du retour"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/carnac.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "9C"
     },
     {
       "id": "sudbretagne-10",
@@ -136,7 +145,8 @@
         "Site du festival Hellfest"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clisson.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "10C"
     },
     {
       "id": "sudbretagne-11",
@@ -147,21 +157,35 @@
         "Petite Cité de Caractère. Flânerie sur son vieux port au bord de la Vilaine, puis montée dans le quartier historique pour admirer les anciens entrepôts de sel et d'impressionnants points de vue depuis le rocher."
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/rocheb.jpg",
-      "isCustom": true
+      "isCustom": true,
+      "numero": "11C"
     },
     {
       "id": "barycentre-roadtrip",
       "title": "🏠 Barycentre du road trip",
       "lat": 47.75218439376828,
-      "lng": -3.4006743911376955,
+      "lng": -3.4006743911376947,
       "desc": [
+        "Point central calculé automatiquement à partir des 11 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous).",
         "https://mes-bd.pages.dev/bre/ BD1",
         "https://mes-bd.pages.dev/clis/ BD2"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/bre/images/00-couverture.jpg",
       "isCustom": true,
-      "isBarycentre": true
+      "isBarycentre": true,
+      "_original": {
+        "title": "🏠 Barycentre du road trip",
+        "desc": [
+          "Point central calculé automatiquement à partir des 11 lieux de ce road trip.",
+          "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous).",
+          "https://mes-bd.pages.dev/bre/",
+          "https://mes-bd.pages.dev/clis/"
+        ],
+        "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/bre/images/00-couverture.jpg"
+      },
+      "_editionLocale": true
     }
   ],
-  "savedAt": "2026-09-30T05:14:08.000Z"
+  "savedAt": "2026-09-30T05:19:00.881Z"
 }
