@@ -200,6 +200,7 @@
       "desc": [
         "Point central calculé automatiquement à partir des 13 lieux de ce road trip.",
         "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+        "https://mes-bd.pages.dev/irla/ Carnet du voyage
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/corbieres-boutenac-carte.jpg",
     
@@ -207,5 +208,5 @@
       "isBarycentre": true
     }
   ],
-  "savedAt": "2026-09-30T15:15:39.809Z"
+  "savedAt": "2026-10-01T15:15:39.809Z"
 }
