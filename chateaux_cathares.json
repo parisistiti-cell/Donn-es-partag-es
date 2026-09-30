@@ -198,11 +198,9 @@
       "lat": 42.993511130769235,
       "lng": 2.4841045923076925,
       "desc": [
-       
-        "https://mes-bd.pages.dev/catha/ Carnet du voyage
+        "https://mes-bd.pages.dev/catha/ Carnet du voyage"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/corbieres-boutenac-carte.jpg",
-    
       "isCustom": true,
       "isBarycentre": true
     }
