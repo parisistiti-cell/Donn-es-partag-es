@@ -29,7 +29,7 @@
         "Remparts impressionnants et Château Comtal",
         "Panorama spectaculaire sur la cité depuis le Pont Vieux"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/carca.jpg",
       "isCustom": true,
       "numero": "1C"
     },
@@ -42,7 +42,7 @@
         "Ancienne place forte cathare suspendue au-dessus des canyons de la Cesse et du Brian",
         "Ponts naturels creusés dans la roche et la \"Malvoisine\" (reconstitution de catapulte médiévale)"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/minerve.jpg",
       "isCustom": true,
       "numero": "2C"
     },
@@ -56,7 +56,7 @@
         "Dégustation de la Blanquette de Limoux, plus ancien vin effervescent du monde",
         "Grand marché hebdomadaire traditionnel sous les halles"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/limoux.jpg",
       "isCustom": true,
       "numero": "3C"
     },
@@ -69,7 +69,7 @@
         "Pause rafraîchissante au bord du canal",
         "Promenade à pied, à vélo ou mini-croisière en péniche"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/canalmidi.jpg",
       "isCustom": true,
       "numero": "4C"
     },
@@ -83,7 +83,7 @@
         "Cœur médiéval, halles du XIVe siècle, abbaye bénédictine Sainte-Marie",
         "Dégustation de vins d'AOC Corbières chez un vigneron local"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/lagrasse.jpg",
       "isCustom": true,
       "numero": "5C"
     },
@@ -96,7 +96,7 @@
         "Sentinelle de pierre suspendue sur un éperon rocheux à 728 m d'altitude",
         "Salle gothique du donjon"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/queribus.jpg",
       "isCustom": true,
       "numero": "6C"
     },
@@ -109,7 +109,7 @@
         "Village célèbre pour son meunier et son sermon",
         "Pause bucolique entre Quéribus et Peyrepertuse"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/cucugnan.jpg",
       "isCustom": true,
       "numero": "7C"
     },
@@ -135,7 +135,7 @@
         "Château fort restauré, histoire de Guillaume Bélibaste, dernier parfait cathare brûlé en 1321",
         "Rôtisserie médiévale proposant des recettes authentiques du Moyen Âge"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/villerouge.jpg",
       "isCustom": true,
       "numero": "9C"
     },
@@ -162,7 +162,7 @@
         "Colossal, véritable vaisseau de pierre de la taille de la Cité de Carcassonne",
         "Murailles qui semblent fusionner avec la montagne"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/Peyrepertuse.jpg",
       "isCustom": true,
       "numero": "11C"
     },
@@ -175,7 +175,7 @@
         "Superbes paysages du Vignoble des Corbières",
         "Dégustation de vins d'AOC Corbières chez un vigneron local"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/Vignobles_Corbieres.jpg",
       "isCustom": true,
       "numero": "12C"
     },
@@ -188,7 +188,7 @@
         "Frontière espagnole, transition entre garrigue audoise et contreforts des Albères",
         "Fort de Bellegarde dominant le col du Perthus, histoire frontalière de la Catalogne"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/Pertus.jpg",
       "isCustom": true,
       "numero": "13C"
     },
@@ -201,9 +201,7 @@
         "Point central calculé automatiquement à partir des 13 lieux de ce road trip.",
         "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
       ],
-      "img": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMjYwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI2MCI+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9ImNpZWwiIGN4PSI1MCUiIGN5PSIzMCUiIHI9IjgwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlYWY2ZjIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2ZlOWUwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI2MCIgZmlsbD0idXJsKCNjaWVsKSIvPgoKICA8IS0tIENlcmNsZXMgY29uY2VudHJpcXVlcyAocmF5b24gZCfDqXF1aWRpc3RhbmNlKSAtLT4KICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxNTAiIHI9Ijk1IiBmaWxsPSJub25lIiBzdHJva2U9IiMyZTdkNmYiIHN0cm9rZS13aWR0aD0iMiIgb3BhY2l0eT0iMC4zNSIvPgogIDxjaXJjbGUgY3g9IjIwMCIgY3k9IjE1MCIgcj0iNjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJlN2Q2ZiIgc3Ryb2tlLXdpZHRoPSIyIiBvcGFjaXR5PSIwLjUiLz4KICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxNTAiIHI9IjM1IiBmaWxsPSJub25lIiBzdHJva2U9IiMyZTdkNmYiIHN0cm9rZS13aWR0aD0iMiIgb3BhY2l0eT0iMC43Ii8+CgogIDwhLS0gUGV0aXRzIHJlcMOocmVzIGRlcyAibGlldXgiIGF1dG91ciwgcmVsacOpcyBhdSBjZW50cmUgLS0+CiAgPGcgc3Ryb2tlPSIjMmU3ZDZmIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9IjAuNTUiPgogICAgPGxpbmUgeDE9IjIwMCIgeTE9IjE1MCIgeDI9IjkwIiB5Mj0iODAiLz4KICAgIDxsaW5lIHgxPSIyMDAiIHkxPSIxNTAiIHgyPSIzMjAiIHkyPSI3MCIvPgogICAgPGxpbmUgeDE9IjIwMCIgeTE9IjE1MCIgeDI9IjMzMCIgeTI9IjIwMCIvPgogICAgPGxpbmUgeDE9IjIwMCIgeTE9IjE1MCIgeDI9Ijk1IiB5Mj0iMjE1Ii8+CiAgPC9nPgogIDxnIGZpbGw9IiNlMDdhM2UiPgogICAgPGNpcmNsZSBjeD0iOTAiIGN5PSI4MCIgcj0iNyIvPgogICAgPGNpcmNsZSBjeD0iMzIwIiBjeT0iNzAiIHI9IjciLz4KICAgIDxjaXJjbGUgY3g9IjMzMCIgY3k9IjIwMCIgcj0iNyIvPgogICAgPGNpcmNsZSBjeD0iOTUiIGN5PSIyMTUiIHI9IjciLz4KICA8L2c+CgogIDwhLS0gUmVww6hyZSBjZW50cmFsIGVuIGZvcm1lIGRlIG1haXNvbiwgc3VyIHVuIHBpbiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMDAsMTUwKSI+CiAgICA8cGF0aCBkPSJNMCwtMzggQzIyLC0zOCAzOCwtMjIgMzgsMCBDMzgsMjYgMCw1OCAwLDU4IEMwLDU4IC0zOCwyNiAtMzgsMCBDLTM4LC0yMiAtMjIsLTM4IDAsLTM4IFoiCiAgICAgICAgICBmaWxsPSIjMGIzOTU0IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIvPgogICAgPHBhdGggZD0iTS0xOCw0IEwwLC0xMiBMMTgsNCBMMTgsMjAgTDcsMjAgTDcsOSBMLTcsOSBMLTcsMjAgTC0xOCwyMCBaIiBmaWxsPSIjZmZmZmZmIi8+CiAgPC9nPgoKICA8dGV4dCB4PSIyMDAiIHk9IjI0MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IgogICAgICAgIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMGIzOTU0Ij7wn4+gIEJhcnljZW50cmUgZHUgcm9hZCB0cmlwPC90ZXh0Pgo8L3N2Zz4K",
-      "isCustom": true,
-      "isBarycentre": true,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/corbieres-boutenac-carte.jpg",
       "_original": {
         "title": "🏠 Barycentre du road trip",
         "desc": [
