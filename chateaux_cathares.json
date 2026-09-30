@@ -122,7 +122,7 @@
         "Donjon abritant la salle des Musiciens, hommage à l'art des troubadours",
         "Paisible lac de Puivert au pied du château"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/puivert.jpg",
       "isCustom": true,
       "numero": "8C"
     },
@@ -149,7 +149,7 @@
         "Panorama saisissant sur les Pyrénées",
         "Petit musée archéologique dans le village au pied du mont"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/motsegur.jpg",
       "isCustom": true,
       "numero": "10C"
     },
@@ -215,5 +215,5 @@
       "_editionLocale": true
     }
   ],
-  "savedAt": "2026-09-30T13:10:39.809Z"
+  "savedAt": "2026-09-30T13:15:39.809Z"
 }
