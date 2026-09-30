@@ -168,8 +168,8 @@
       "desc": [
         "Point central calculé automatiquement à partir des 11 lieux de ce road trip.",
         "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous).",
-        "https://mes-bd.pages.dev/bre/ BD1",
-        "https://mes-bd.pages.dev/clis/ BD2"
+        "https://mes-bd.pages.dev/bre/ BD1 Carnet du voyage",
+        "https://mes-bd.pages.dev/clis/ BD2 Site du Hellfest"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/bre/images/00-couverture.jpg",
       "isCustom": true,
@@ -187,5 +187,5 @@
       "_editionLocale": true
     }
   ],
-  "savedAt": "2026-09-30T05:19:00.881Z"
+  "savedAt": "2026-09-30T05:20:00.881Z"
 }
