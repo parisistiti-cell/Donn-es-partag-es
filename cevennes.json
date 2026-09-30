@@ -76,7 +76,7 @@
         "Vue imprenable depuis le belvédère de Blandas",
         "Descente pédestre vers le hameau caché au fond du cirque"
       ],
-      "img": null,
+      "img":"https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/nava.jpg",
       "isCustom": true
     },
     {
@@ -89,7 +89,7 @@
         "Le Climatographe, observatoire météorologique au sommet",
         "Espace muséographique interactif dédié au climat et à la météo"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/aigoual.jpg",
       "isCustom": true
     },
     {
@@ -102,7 +102,7 @@
         "Cascade fracassante sous un immense porche rocheux",
         "Visite guidée à l'intérieur du canyon souterrain"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/abime.jpg",
       "isCustom": true
     },
     {
@@ -132,5 +132,5 @@
       "isCustom": true
     }
   ],
-  "savedAt": "2026-07-17T00:00:00.000Z"
+  "savedAt": "2026-09-17T00:00:00.000Z"
 }
