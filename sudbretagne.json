@@ -173,19 +173,8 @@
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/bre/images/00-couverture.jpg",
       "isCustom": true,
-      "isBarycentre": true,
-      "_original": {
-        "title": "🏠 Barycentre du road trip",
-        "desc": [
-          "Point central calculé automatiquement à partir des 11 lieux de ce road trip.",
-          "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous).",
-          "https://mes-bd.pages.dev/bre/",
-          "https://mes-bd.pages.dev/clis/"
-        ],
-        "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/bre/images/00-couverture.jpg"
-      },
-      "_editionLocale": true
+      "isBarycentre": true
     }
   ],
-  "savedAt": "2026-10-01T06:08:38.714Z"
+  "savedAt": "2026-10-01T06:25:11.000Z"
 }
