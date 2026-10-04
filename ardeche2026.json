@@ -388,12 +388,12 @@
       "lat": 44.57509084201244,
       "lng": 4.34649203501092,
       "desc": [
-        "https://mes-bd.pages.dev/Ardeche-2026/ Carnet du voyage"
+        "https://mes-bd.pages.dev/ardeche-solo/ Carnet du voyage"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/Ardeche-2026/images/00-couverture.jpg",
       "isCustom": true,
       "isBarycentre": true
     }
   ],
-  "savedAt": "2026-09-30T04:22:21.000Z"
+  "savedAt": "2026-10-04T04:22:21.000Z"
 }
