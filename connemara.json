@@ -198,12 +198,12 @@
       "lat": 52.89508584285714,
       "lng": -9.4784557,
       "desc": [
-        "https://mes-bd.pages.dev/irla/ Carnet du voyage"
+        "https://mes-bd.pages.dev/irla-solo/ Carnet du voyage"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/mes-bd/main/irla/images/00-couverture.jpg",
       "isCustom": true,
       "isBarycentre": true
     }
   ],
-  "savedAt": "2026-09-30T17:20:00.000Z"
+  "savedAt": "2026-10-04T17:20:00.000Z"
 }
