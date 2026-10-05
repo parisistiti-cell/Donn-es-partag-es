@@ -50,7 +50,7 @@
         "Point central calculé automatiquement à partir des 23 lieux de ce road trip.",
         "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
       ],
-      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/corez.jpg.jpg",
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/corez.jpg",
       "isCustom": true,
       "isBarycentre": true
     },
