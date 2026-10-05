@@ -51,6 +51,10 @@
         "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/corez.jpg",
+      
+      "desc": [
+        "https://mes-bd.pages.dev/corezlot-solo/ Carnet du voyage"
+      ],
       "isCustom": true,
       "isBarycentre": true
     },
@@ -310,5 +314,5 @@
       "numero": "21C"
     }
   ],
-  "savedAt": "2026-10-05T07:23:49.955Z"
+  "savedAt": "2026-10-05T07:23:58.955Z"
 }
