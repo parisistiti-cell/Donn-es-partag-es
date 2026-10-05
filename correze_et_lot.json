@@ -35,10 +35,9 @@
       "lat": 45.1754368,
       "lng": 1.6720272,
       "desc": [
-        "Cat√©gorie : other",
-        "Trouv√© via OpenStreetMap."
+                "Le Canal des Moines et Aubazine se trouvent sur la Voie de Rocamadour en Limousin et Haut-Quercy, un chemin vers Saint-Jacques-de-Compostelle."
       ],
-      "img": null,
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/aubasinemoine.jpg.jpg",
       "isCustom": true,
       "numero": "1C"
     },
@@ -51,7 +50,7 @@
         "Point central calcul√© automatiquement √† partir des 23 lieux de ce road trip.",
         "Id√©al pour chercher un h√©bergement √† √©quidistance (voir le bloc ¬´ üè® H√©bergement ¬ª ci-dessous)."
       ],
-      "img": "null",
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/corez.jpg.jpg",
       "isCustom": true,
       "isBarycentre": true
     },
@@ -61,8 +60,7 @@
       "lat": 45.1296179,
       "lng": 1.7670538,
       "desc": [
-        "Cat√©gorie : other",
-        "Trouv√© via OpenStreetMap."
+                "Plan d'eau amÈnagÈ de 12 ha avec baignade surveillÈe ."
       ],
       "img": null,
       "isCustom": true,
@@ -87,8 +85,8 @@
       "lat": 45.2262633,
       "lng": 1.549301,
       "desc": [
-        "Cat√©gorie : district",
-        "Trouv√© via OpenStreetMap."
+        
+        "Un voyage inÈdit dans la tradition ardoisiËre.."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/travassac.jpg",
       "isCustom": true,
@@ -100,8 +98,8 @@
       "lat": 44.9373274,
       "lng": 1.6096276,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+        "SurnommÈe la ´ ville aux 7 tours ª, Martel est une charmante citÈ qui a su trouver l'Èquilibre parfait entre tourisme et authenticitÈ de l'Èpoque mÈdiÈvale.",
+        
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/martel.jpg",
       "isCustom": true,
@@ -113,8 +111,8 @@
       "lat": 45.1515884,
       "lng": 2.0099407,
       "desc": [
-        "Cat√©gorie : other",
-        "Trouv√© via OpenStreetMap."
+        
+        "e Barrage du Chastang est un lieu fascinant o˘ l'Ènergie et la nature se rencontrent."
       ],
       "img": null,
       "isCustom": true,
@@ -126,8 +124,7 @@
       "lat": 45.24343,
       "lng": 2.2246104,
       "desc": [
-        "Cat√©gorie : other",
-        "Trouv√© via OpenStreetMap."
+                "Le barrage de l'Aigle. C'est le plus puissant du bassin de la Dordogne. Il est surnommÈ "le barrage de la rÈsistance"." 
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/baraiglesoursac.jpg",
       "isCustom": true,
@@ -139,8 +136,7 @@
       "lat": 45.2012698,
       "lng": 1.5503469,
       "desc": [
-        "Cat√©gorie : house",
-        "Trouv√© via OpenStreetMap."
+                "Acrobranche."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/ussacwizi.jpg",
       "isCustom": true,
@@ -152,8 +148,7 @@
       "lat": 45.2754969,
       "lng": 2.2013963,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+                "Terraventura."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/soursac terravent.jpg",
       "isCustom": true,
@@ -178,8 +173,7 @@
       "lat": 45.2917558,
       "lng": 1.9496581,
       "desc": [
-        "Cat√©gorie : house",
-        "Trouv√© via OpenStreetMap."
+                "Ch‚teau du XVËme siËcle, entiËrement restaurÈ."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/sediere.jpg",
       "isCustom": true,
@@ -191,8 +185,7 @@
       "lat": 45.2995221,
       "lng": 1.8507685,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+                "cascades spectaculaires, ruelles fleuries, artisans d'art, jardins secrets et chapelle ."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gimel.jpg",
       "isCustom": true,
@@ -204,8 +197,8 @@
       "lat": 45.1980722,
       "lng": 1.8587313,
       "desc": [
-        "Cat√©gorie : district",
-        "Trouv√© via OpenStreetMap."
+        
+        "Cet endroit, totalement insolite, prÈsente les rÈalisations de sculpteurs sur pierre du monde entier."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/marc la tour.jpg",
       "isCustom": true,
@@ -217,8 +210,8 @@
       "lat": 45.201106,
       "lng": 2.1412852,
       "desc": [
-        "Cat√©gorie : other",
-        "Trouv√© via OpenStreetMap."
+        
+        "Une balade pleine de sÈrÈnitÈ aux Jardins, un moment gourmand au Restaurant."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/sothys-auriac-24-07.jpg",
       "isCustom": true,
@@ -230,8 +223,8 @@
       "lat": 45.0985199,
       "lng": 1.9238528,
       "desc": [
-        "Cat√©gorie : district",
-        "Trouv√© via OpenStreetMap."
+        
+        "Argentat-sur-Dordogne, la Capitale des Gabarriers."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/argentat.jpg",
       "isCustom": true,
@@ -243,8 +236,8 @@
       "lat": 45.110028,
       "lng": 1.8310018,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+        
+        "Sente aux cochons."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/neville cochon.jpg",
       "isCustom": true,
@@ -256,8 +249,7 @@
       "lat": 44.9821505,
       "lng": 1.8289709,
       "desc": [
-        "Cat√©gorie : district",
-        "Trouv√© via OpenStreetMap."
+        "SurnommÈ la ´ Riviera Limousine ª, ce village mÈdiÈval vous invite ‡ savourer sa douceur de vivre.."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/beaulieu.jpg",
       "isCustom": true,
@@ -269,8 +261,8 @@
       "lat": 45.6811711,
       "lng": 1.9459605,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+        
+        "Plateau des 1000 vaches."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/tarnacmilleva.jpg",
       "isCustom": true,
@@ -295,8 +287,8 @@
       "lat": 44.7995467,
       "lng": 1.6181714,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+        
+        "Point culminant de la CorrËze ‡ 977 mËtres d'altitude ."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/rocamadour.jpg",
       "isCustom": true,
@@ -308,8 +300,7 @@
       "lat": 44.8443212,
       "lng": 1.6638612,
       "desc": [
-        "Cat√©gorie : other",
-        "Trouv√© via OpenStreetMap."
+                "Ancienne base aÈrienne 265."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/viroulou.JPG",
       "isCustom": true,
@@ -321,13 +312,12 @@
       "lat": 45.0604597,
       "lng": 1.6551231,
       "desc": [
-        "Cat√©gorie : city",
-        "Trouv√© via OpenStreetMap."
+                "Collonges-la-Rouge, rubis de la VallÈe de la Dordogne en CorrËze, est fiËrement classÈ parmi les ´ Plus Beaux Villages de France ª."
       ],
       "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/collonge.jpg",
       "isCustom": true,
       "numero": "21C"
     }
   ],
-  "savedAt": "2026-10-05T07:21:48.955Z"
+  "savedAt": "2026-10-05T07:23:48.955Z"
 }
