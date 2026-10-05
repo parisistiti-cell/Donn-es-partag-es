@@ -1,0 +1,314 @@
+{
+  "app": "TP",
+  "type": "roadtrip",
+  "version": 1,
+  "nom": "correze et lot",
+  "savedSpotIds": [
+    "custom-1791177233902",
+    "barycentre-roadtrip",
+    "custom-1791177314166",
+    "lieux-188b234a-c072-40a2-830a-c9b476b1a2f3",
+    "custom-1791177618531",
+    "custom-1791177675875",
+    "custom-1791177772970",
+    "custom-1791177808058",
+    "custom-1791177847185",
+    "custom-1791178161263",
+    "custom-1791178227983",
+    "custom-1791178331174",
+    "custom-1791178367285",
+    "custom-1791178688891",
+    "custom-1791179341854",
+    "custom-1791179462621",
+    "custom-1791179570653",
+    "custom-1791180187520",
+    "custom-1791180304424",
+    "custom-1791180386039",
+    "custom-1791180415343",
+    "custom-1791180458399",
+    "custom-1791183670192"
+  ],
+  "customSpots": [
+    {
+      "id": "custom-1791177233902",
+      "title": "Canal des Moines (19190 Aubazines)",
+      "lat": 45.1754368,
+      "lng": 1.6720272,
+      "desc": [
+        "Le Canal des Moines et Aubazine se trouvent sur la Voie de Rocamadour en Limousin et Haut-Quercy, un chemin vers Saint-Jacques-de-Compostelle."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/aubasinemoine.jpg.jpg",
+      "isCustom": true,
+      "numero": "1C"
+    },
+    {
+      "id": "barycentre-roadtrip",
+      "title": "🏠 Barycentre du road trip",
+      "lat": 45.19097292749653,
+      "lng": 1.819373033069909,
+      "desc": [
+        "Point central calculé automatiquement à partir des 23 lieux de ce road trip.",
+        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/corez.jpg.jpg",
+      "isCustom": true,
+      "isBarycentre": true
+    },
+    {
+      "id": "custom-1791177314166",
+      "title": "Lac de Miel (19190 Beynat)",
+      "lat": 45.1296179,
+      "lng": 1.7670538,
+      "desc": [
+        "Plan d'eau aménagé de 12 ha avec baignade surveillée ."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "2C"
+    },
+    {
+      "id": "lieux-188b234a-c072-40a2-830a-c9b476b1a2f3",
+      "numero": 194,
+      "title": "Uzerche",
+      "lat": 45.42252941621013,
+      "lng": 1.5661740303039553,
+      "desc": [
+        "Salle de la Machine de la Papeterie"
+      ],
+      "img": null,
+      "isCustom": true,
+      "isLieuxDB": true
+    },
+    {
+      "id": "custom-1791177618531",
+      "title": "Travassac (19270 Donzenac)",
+      "lat": 45.2262633,
+      "lng": 1.549301,
+      "desc": [
+        "Un voyage inédit dans la tradition ardoisière.."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/travassac.jpg",
+      "isCustom": true,
+      "numero": "3C"
+    },
+    {
+      "id": "custom-1791177675875",
+      "title": "Martel (46600)",
+      "lat": 44.9373274,
+      "lng": 1.6096276,
+      "desc": [
+        "Surnommée la « ville aux 7 tours », Martel est une charmante cité qui a su trouver l'équilibre parfait entre tourisme et authenticité de l'époque médiévale."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/martel.jpg",
+      "isCustom": true,
+      "numero": "4C"
+    },
+    {
+      "id": "custom-1791177772970",
+      "title": "Barrage du Chastang (19320 Saint-Martin-la-Méanne)",
+      "lat": 45.1515884,
+      "lng": 2.0099407,
+      "desc": [
+        "e Barrage du Chastang est un lieu fascinant où l'énergie et la nature se rencontrent."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "5C"
+    },
+    {
+      "id": "custom-1791177808058",
+      "title": "Barrage de l'Aigle (19550 Soursac)",
+      "lat": 45.24343,
+      "lng": 2.2246104,
+      "desc": [
+        "Le barrage de l'Aigle. C'est le plus puissant du bassin de la Dordogne. Il est surnommé « le barrage de la résistance »."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/baraiglesoursac.jpg",
+      "isCustom": true,
+      "numero": "6C"
+    },
+    {
+      "id": "custom-1791177847185",
+      "title": "Parc acrobranche Wizz'titi (19270 Ussac)",
+      "lat": 45.2012698,
+      "lng": 1.5503469,
+      "desc": [
+        "Acrobranche."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/ussacwizi.jpg",
+      "isCustom": true,
+      "numero": "7C"
+    },
+    {
+      "id": "custom-1791178161263",
+      "title": "Soursac (19550)",
+      "lat": 45.2754969,
+      "lng": 2.2013963,
+      "desc": [
+        "Terraventura."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/soursac terravent.jpg",
+      "isCustom": true,
+      "numero": "8C"
+    },
+    {
+      "id": "custom-1791178227983",
+      "title": "Le Pescher (19190)",
+      "lat": 45.0701319,
+      "lng": 1.7384157,
+      "desc": [
+        "Catégorie : city",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": null,
+      "isCustom": true,
+      "numero": "9C"
+    },
+    {
+      "id": "custom-1791178331174",
+      "title": "Château de Sédières (19320 Clergoux)",
+      "lat": 45.2917558,
+      "lng": 1.9496581,
+      "desc": [
+        "Château du XVème siècle, entièrement restauré."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/sediere.jpg",
+      "isCustom": true,
+      "numero": "10C"
+    },
+    {
+      "id": "custom-1791178367285",
+      "title": "Gimel-les-Cascades (19800)",
+      "lat": 45.2995221,
+      "lng": 1.8507685,
+      "desc": [
+        "cascades spectaculaires, ruelles fleuries, artisans d'art, jardins secrets et chapelle ."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/gimel.jpg",
+      "isCustom": true,
+      "numero": "11C"
+    },
+    {
+      "id": "custom-1791178688891",
+      "title": "Marc-la-Tour (19150 Lagarde-Marc-la-Tour)",
+      "lat": 45.1980722,
+      "lng": 1.8587313,
+      "desc": [
+        "Cet endroit, totalement insolite, présente les réalisations de sculpteurs sur pierre du monde entier."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/marc la tour.jpg",
+      "isCustom": true,
+      "numero": "12C"
+    },
+    {
+      "id": "custom-1791179341854",
+      "title": "Les Jardins Sothys (19220 Auriac)",
+      "lat": 45.201106,
+      "lng": 2.1412852,
+      "desc": [
+        "Une balade pleine de sérénité aux Jardins, un moment gourmand au Restaurant."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/sothys-auriac-24-07.jpg",
+      "isCustom": true,
+      "numero": "13C"
+    },
+    {
+      "id": "custom-1791179462621",
+      "title": "Argentat (19400 Argentat-sur-Dordogne)",
+      "lat": 45.0985199,
+      "lng": 1.9238528,
+      "desc": [
+        "Argentat-sur-Dordogne, la Capitale des Gabarriers."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/argentat.jpg",
+      "isCustom": true,
+      "numero": "14C"
+    },
+    {
+      "id": "custom-1791179570653",
+      "title": "Neuville (19380)",
+      "lat": 45.110028,
+      "lng": 1.8310018,
+      "desc": [
+        "Sente aux cochons."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/neville cochon.jpg",
+      "isCustom": true,
+      "numero": "15C"
+    },
+    {
+      "id": "custom-1791180187520",
+      "title": "Beaulieu-sur-Dordogne (19120 Beaulieu-sur-Dordogne)",
+      "lat": 44.9821505,
+      "lng": 1.8289709,
+      "desc": [
+        "Surnommé la « Riviera Limousine », ce village médiéval vous invite à savourer sa douceur de vivre.."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/beaulieu.jpg",
+      "isCustom": true,
+      "numero": "16C"
+    },
+    {
+      "id": "custom-1791180304424",
+      "title": "Tarnac (19170)",
+      "lat": 45.6811711,
+      "lng": 1.9459605,
+      "desc": [
+        "Plateau des 1000 vaches."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/tarnacmilleva.jpg",
+      "isCustom": true,
+      "numero": "17C"
+    },
+    {
+      "id": "custom-1791180386039",
+      "title": "Mont Bessou (19250 Meymac)",
+      "lat": 45.5701029,
+      "lng": 2.1231273,
+      "desc": [
+        "Catégorie : other",
+        "Trouvé via OpenStreetMap."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/mont bessou.jpg",
+      "isCustom": true,
+      "numero": "18C"
+    },
+    {
+      "id": "custom-1791180415343",
+      "title": "Rocamadour (46500)",
+      "lat": 44.7995467,
+      "lng": 1.6181714,
+      "desc": [
+        "Point culminant de la Corrèze à 977 mètres d'altitude ."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/rocamadour.jpg",
+      "isCustom": true,
+      "numero": "19C"
+    },
+    {
+      "id": "custom-1791180458399",
+      "title": "Camp de Viroulou (ex-Base aérienne 265 Rocamadour) (46500 Alvignac)",
+      "lat": 44.8443212,
+      "lng": 1.6638612,
+      "desc": [
+        "Ancienne base aérienne 265."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/viroulou.JPG",
+      "isCustom": true,
+      "numero": "20C"
+    },
+    {
+      "id": "custom-1791183670192",
+      "title": "Collonges-la-Rouge (19500)",
+      "lat": 45.0604597,
+      "lng": 1.6551231,
+      "desc": [
+        "Collonges-la-Rouge, rubis de la Vallée de la Dordogne en Corrèze, est fièrement classé parmi les « Plus Beaux Villages de France »."
+      ],
+      "img": "https://cdn.jsdelivr.net/gh/parisistiti-cell/Donn-es-partag-es@main/collonge.jpg",
+      "isCustom": true,
+      "numero": "21C"
+    }
+  ],
+  "savedAt": "2026-10-05T07:23:48.955Z"
+}
