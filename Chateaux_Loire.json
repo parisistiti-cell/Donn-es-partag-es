@@ -30,11 +30,12 @@
       "title": "🏠 Barycentre du road trip",
       "lat": 47.48307052170641,
       "lng": 1.2168795256201173,
+      
       "desc": [
-        "Point central calculé automatiquement à partir des 5 lieux de ce road trip.",
-        "Idéal pour chercher un hébergement à équidistance (voir le bloc « 🏨 Hébergement » ci-dessous)."
+        "https://mes-bd.pages.dev/bloi-solo/ Carnet du voyage"
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chaloi.jpg",
+    
       "isCustom": true,
       "isBarycentre": true
     },
@@ -91,5 +92,5 @@
       "numero": "4C"
     }
   ],
-  "savedAt": "2026-08-26T13:26:58.922Z"
+  "savedAt": "2026-10-26T13:26:58.922Z"
 }
