@@ -21,7 +21,7 @@
       "desc": [
         "Château du Clos Lucé, dernière demeure de Léonard de Vinci."
       ],
-       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clolu.jpg",
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clolu.jpg",
       "isCustom": true,
       "isLieuxDB": true
     },
@@ -30,12 +30,10 @@
       "title": "🏠 Barycentre du road trip",
       "lat": 47.48307052170641,
       "lng": 1.2168795256201173,
-      
       "desc": [
         "https://mes-bd.pages.dev/bloi-solo/ Carnet du voyage"
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chaloi.jpg",
-    
       "isCustom": true,
       "isBarycentre": true
     },
@@ -62,7 +60,8 @@
         "Trouvé via OpenStreetMap."
       ],
       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chaumon.jpg",
-      "numero": "2C"
+      "numero": "2C",
+      "isCustom": true
     },
     {
       "id": "custom-1787750524874",
@@ -73,8 +72,7 @@
         "Catégorie : house",
         "Trouvé via OpenStreetMap."
       ],
-     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chamb2.jpg",
-      "numero": "2C"
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chamb2.jpg",
       "isCustom": true,
       "numero": "3C"
     },
