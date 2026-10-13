@@ -21,7 +21,7 @@
       "desc": [
         "Château du Clos Lucé, dernière demeure de Léonard de Vinci."
       ],
-      "img": null,
+       "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/clolu.jpg",
       "isCustom": true,
       "isLieuxDB": true
     },
@@ -48,7 +48,7 @@
         "Catégorie : house",
         "Trouvé via OpenStreetMap."
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chamb.jpg",
       "isCustom": true,
       "numero": "1C"
     },
@@ -61,8 +61,7 @@
         "Catégorie : house",
         "Trouvé via OpenStreetMap."
       ],
-      "img": null,
-      "isCustom": true,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chaumon.jpg",
       "numero": "2C"
     },
     {
@@ -74,7 +73,8 @@
         "Catégorie : house",
         "Trouvé via OpenStreetMap."
       ],
-      "img": null,
+     "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chamb2.jpg",
+      "numero": "2C"
       "isCustom": true,
       "numero": "3C"
     },
@@ -87,10 +87,10 @@
         "Catégorie : house",
         "Trouvé via OpenStreetMap."
       ],
-      "img": null,
+      "img": "https://raw.githubusercontent.com/parisistiti-cell/Donn-es-partag-es/main/chenon.jpg",
       "isCustom": true,
       "numero": "4C"
     }
   ],
-  "savedAt": "2026-10-26T13:26:58.922Z"
+  "savedAt": "2026-10-26T18:26:58.922Z"
 }
